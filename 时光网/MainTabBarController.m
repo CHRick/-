@@ -9,15 +9,33 @@
 #import "MainTabBarController.h"
 #import "RXBarItem.h"
 
+#define kBtnW self.tabBar.bounds.size.width / self.viewControllers.count
+
 
 @interface MainTabBarController ()
+@property (nonatomic,strong) UIImageView *bgSelected;
 
 @end
 
 @implementation MainTabBarController
 
+- (UIImageView *)bgSelected
+{
+    if(_bgSelected == nil)
+    {
+        _bgSelected = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"selectTabbar_bg_all1"]];
+        _bgSelected.frame = CGRectMake(0, 0, kBtnW, 49);
+        [self.tabBar addSubview:_bgSelected];
+
+    }
+    return _bgSelected;
+}
+
 #pragma mark - 自定义TabBar
 
+/**
+ *  创建自定义工具栏
+ */
 - (void)createTabBar
 {
     for(UIView *view in self.tabBar.subviews)
@@ -28,7 +46,6 @@
             [view removeFromSuperview];
         }
     }
-    CGFloat btnW = self.tabBar.bounds.size.width / self.viewControllers.count;
     
     NSArray *array = @[
                        @"movie_home",
@@ -44,16 +61,13 @@
                             @"影院",
                             @"更多"
                             ];
-    //选中背景视图
-    UIImageView *bgSelected = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"selectTabbar_bg_all1"]];
-    bgSelected.frame = CGRectMake(0, 0, btnW, 49);
-    bgSelected.tag = 88888;
-    [self.tabBar addSubview:bgSelected];
-    
+     //选中背景视图
+    [self bgSelected];
+    //创建工具栏按钮
     for (int i = 0;i < self.viewControllers.count;i ++)
     {
         
-        CGRect frame = CGRectMake(i * btnW, 0, btnW, 49);
+        CGRect frame = CGRectMake(i * kBtnW, 0, kBtnW, 49);
         RXBarItem *btn = [[RXBarItem alloc]initWithFrame:frame withImageName:array[i] withTitle:arrayTitle[i]];
         btn.tag = i;
         [btn addTarget:self action:@selector(changeWindow:) forControlEvents:UIControlEventTouchUpInside];
@@ -62,26 +76,37 @@
     
     
 }
-
+/**
+ *  工具栏
+ *
+ *  @param button <#button description#>
+ */
 - (void)changeWindow:(UIButton *)button
 {
     self.selectedIndex = button.tag;
     [UIView animateWithDuration:0.3 animations:^{
-        [(UIImageView *)[self.tabBar viewWithTag:88888] setCenter:button.center];
+        self.bgSelected.center = button.center;
     }];
 }
 
+#pragma mark -
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tabBar.backgroundImage = [UIImage imageNamed:@"tab_bg_all"];
+    
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav_bg_all-64"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];
+    
+//    [[UINavigationBar appearance] setTitleTextAttributes:@{
+//                                                          NSForegroundColorAttributeName:[UIColor blackColor]
+//                                                          }];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:YES];
     [self createTabBar];
-    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -31,6 +31,7 @@
             <objects>
                 <navigationController id="IIO-Bn-ml8" userLabel="movie" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="I6Q-0q-YRP"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1yY-mC-3ey">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -46,16 +47,17 @@
         <!--movie View Controller-->
         <scene sceneID="id3-oZ-da3">
             <objects>
-                <viewController id="uOj-Kz-WD5" userLabel="movie View Controller" customClass="MoreViewController" sceneMemberID="viewController">
+                <viewController id="uOj-Kz-WD5" userLabel="movie View Controller" customClass="MovieViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7zh-B5-VGG"/>
                         <viewControllerLayoutGuide type="bottom" id="4wY-FK-bMH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4bi-D3-nZW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="北美榜" id="3Iv-ji-rMk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7FS-yG-K78" userLabel="First Responder" sceneMemberID="firstResponder"/>

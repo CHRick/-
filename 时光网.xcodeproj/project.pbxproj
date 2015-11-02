@@ -162,6 +162,42 @@
 		32BD09061BE46B720013E3D6 /* up_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BD087A1BE46B720013E3D6 /* up_home.png */; };
 		32BD09071BE46B720013E3D6 /* up_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BD087B1BE46B720013E3D6 /* up_home@2x.png */; };
 		32BD090D1BE49B860013E3D6 /* RXBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD090C1BE49B860013E3D6 /* RXBarItem.m */; };
+		32EF67B21BE7349C00C47174 /* actor.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A21BE7349C00C47174 /* actor.json */; };
+		32EF67B31BE7349C00C47174 /* cinema_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A31BE7349C00C47174 /* cinema_detail.json */; };
+		32EF67B41BE7349C00C47174 /* cinema_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A41BE7349C00C47174 /* cinema_list.json */; };
+		32EF67B51BE7349C00C47174 /* detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A51BE7349C00C47174 /* detail.json */; };
+		32EF67B61BE7349C00C47174 /* district_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A61BE7349C00C47174 /* district_list.json */; };
+		32EF67B71BE7349C00C47174 /* image_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A71BE7349C00C47174 /* image_list.json */; };
+		32EF67B81BE7349C00C47174 /* movie_comment.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A81BE7349C00C47174 /* movie_comment.json */; };
+		32EF67B91BE7349C00C47174 /* movie_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A91BE7349C00C47174 /* movie_detail.json */; };
+		32EF67BA1BE7349C00C47174 /* news_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67AA1BE7349C00C47174 /* news_detail.json */; };
+		32EF67BB1BE7349C00C47174 /* news_detail_images.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67AB1BE7349C00C47174 /* news_detail_images.json */; };
+		32EF67BC1BE7349C00C47174 /* news_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67AC1BE7349C00C47174 /* news_list.json */; };
+		32EF67BD1BE7349C00C47174 /* readyMovie.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67AD1BE7349C00C47174 /* readyMovie.json */; };
+		32EF67BE1BE7349C00C47174 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67AE1BE7349C00C47174 /* search.json */; };
+		32EF67BF1BE7349C00C47174 /* top250.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67AF1BE7349C00C47174 /* top250.json */; };
+		32EF67C01BE7349C00C47174 /* us_box.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67B01BE7349C00C47174 /* us_box.json */; };
+		32EF67C11BE7349C00C47174 /* 豆瓣api.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67B11BE7349C00C47174 /* 豆瓣api.rtf */; };
+		32EF67C81BE7514600C47174 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67C61BE7514600C47174 /* MovieCell.m */; };
+		32EF67C91BE7514600C47174 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67C71BE7514600C47174 /* MovieCell.xib */; };
+		32EF67EC1BE7648B00C47174 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67CC1BE7648B00C47174 /* MKAnnotationView+WebCache.m */; };
+		32EF67ED1BE7648B00C47174 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67CE1BE7648B00C47174 /* NSData+ImageContentType.m */; };
+		32EF67EE1BE7648B00C47174 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67D01BE7648B00C47174 /* SDImageCache.m */; };
+		32EF67EF1BE7648B00C47174 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67D21BE7648B00C47174 /* SDWebImageCompat.m */; };
+		32EF67F01BE7648B00C47174 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67D41BE7648B00C47174 /* SDWebImageDecoder.m */; };
+		32EF67F11BE7648B00C47174 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67D61BE7648B00C47174 /* SDWebImageDownloader.m */; };
+		32EF67F21BE7648B00C47174 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67D81BE7648B00C47174 /* SDWebImageDownloaderOperation.m */; };
+		32EF67F31BE7648B00C47174 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67DA1BE7648B00C47174 /* SDWebImageManager.m */; };
+		32EF67F41BE7648B00C47174 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67DD1BE7648B00C47174 /* SDWebImagePrefetcher.m */; };
+		32EF67F51BE7648B00C47174 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67DF1BE7648B00C47174 /* UIButton+WebCache.m */; };
+		32EF67F61BE7648B00C47174 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67E11BE7648B00C47174 /* UIImage+GIF.m */; };
+		32EF67F71BE7648B00C47174 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67E31BE7648B00C47174 /* UIImage+MultiFormat.m */; };
+		32EF67F81BE7648B00C47174 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67E51BE7648B00C47174 /* UIImage+WebP.m */; };
+		32EF67F91BE7648B00C47174 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67E71BE7648B00C47174 /* UIImageView+HighlightedWebCache.m */; };
+		32EF67FA1BE7648B00C47174 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67E91BE7648B00C47174 /* UIImageView+WebCache.m */; };
+		32EF67FB1BE7648B00C47174 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67EB1BE7648B00C47174 /* UIView+WebCacheOperation.m */; };
+		32EF67FE1BE7763B00C47174 /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67FD1BE7763B00C47174 /* StarView.m */; };
+		32EF68011BE789F900C47174 /* MoveInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF68001BE789F900C47174 /* MoveInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -346,6 +382,62 @@
 		32BD090A1BE492120013E3D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		32BD090B1BE49B860013E3D6 /* RXBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXBarItem.h; sourceTree = "<group>"; };
 		32BD090C1BE49B860013E3D6 /* RXBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXBarItem.m; sourceTree = "<group>"; };
+		32EF67A21BE7349C00C47174 /* actor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = actor.json; sourceTree = "<group>"; };
+		32EF67A31BE7349C00C47174 /* cinema_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_detail.json; sourceTree = "<group>"; };
+		32EF67A41BE7349C00C47174 /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
+		32EF67A51BE7349C00C47174 /* detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = detail.json; sourceTree = "<group>"; };
+		32EF67A61BE7349C00C47174 /* district_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = district_list.json; sourceTree = "<group>"; };
+		32EF67A71BE7349C00C47174 /* image_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = image_list.json; sourceTree = "<group>"; };
+		32EF67A81BE7349C00C47174 /* movie_comment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_comment.json; sourceTree = "<group>"; };
+		32EF67A91BE7349C00C47174 /* movie_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_detail.json; sourceTree = "<group>"; };
+		32EF67AA1BE7349C00C47174 /* news_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news_detail.json; sourceTree = "<group>"; };
+		32EF67AB1BE7349C00C47174 /* news_detail_images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news_detail_images.json; sourceTree = "<group>"; };
+		32EF67AC1BE7349C00C47174 /* news_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news_list.json; sourceTree = "<group>"; };
+		32EF67AD1BE7349C00C47174 /* readyMovie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = readyMovie.json; sourceTree = "<group>"; };
+		32EF67AE1BE7349C00C47174 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		32EF67AF1BE7349C00C47174 /* top250.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top250.json; sourceTree = "<group>"; };
+		32EF67B01BE7349C00C47174 /* us_box.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = us_box.json; sourceTree = "<group>"; };
+		32EF67B11BE7349C00C47174 /* 豆瓣api.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "豆瓣api.rtf"; sourceTree = "<group>"; };
+		32EF67C51BE7514600C47174 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		32EF67C61BE7514600C47174 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		32EF67C71BE7514600C47174 /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		32EF67CB1BE7648B00C47174 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		32EF67CC1BE7648B00C47174 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		32EF67CD1BE7648B00C47174 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		32EF67CE1BE7648B00C47174 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		32EF67CF1BE7648B00C47174 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		32EF67D01BE7648B00C47174 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		32EF67D11BE7648B00C47174 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		32EF67D21BE7648B00C47174 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		32EF67D31BE7648B00C47174 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		32EF67D41BE7648B00C47174 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		32EF67D51BE7648B00C47174 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		32EF67D61BE7648B00C47174 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		32EF67D71BE7648B00C47174 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		32EF67D81BE7648B00C47174 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		32EF67D91BE7648B00C47174 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		32EF67DA1BE7648B00C47174 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		32EF67DB1BE7648B00C47174 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		32EF67DC1BE7648B00C47174 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		32EF67DD1BE7648B00C47174 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		32EF67DE1BE7648B00C47174 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		32EF67DF1BE7648B00C47174 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		32EF67E01BE7648B00C47174 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		32EF67E11BE7648B00C47174 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		32EF67E21BE7648B00C47174 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		32EF67E31BE7648B00C47174 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		32EF67E41BE7648B00C47174 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		32EF67E51BE7648B00C47174 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		32EF67E61BE7648B00C47174 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		32EF67E71BE7648B00C47174 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		32EF67E81BE7648B00C47174 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		32EF67E91BE7648B00C47174 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		32EF67EA1BE7648B00C47174 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		32EF67EB1BE7648B00C47174 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		32EF67FC1BE7763B00C47174 /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarView.h; path = main/movie/view/StarView.h; sourceTree = "<group>"; };
+		32EF67FD1BE7763B00C47174 /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StarView.m; path = main/movie/view/StarView.m; sourceTree = "<group>"; };
+		32EF67FF1BE789F900C47174 /* MoveInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveInfo.h; sourceTree = "<group>"; };
+		32EF68001BE789F900C47174 /* MoveInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -534,6 +626,8 @@
 		32BD07C81BE461D00013E3D6 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				32EF67FF1BE789F900C47174 /* MoveInfo.h */,
+				32EF68001BE789F900C47174 /* MoveInfo.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -541,6 +635,9 @@
 		32BD07C91BE461D00013E3D6 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				32EF67C51BE7514600C47174 /* MovieCell.h */,
+				32EF67C61BE7514600C47174 /* MovieCell.m */,
+				32EF67C71BE7514600C47174 /* MovieCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -825,10 +922,77 @@
 		32BD09081BE491BD0013E3D6 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				32EF67CA1BE7648B00C47174 /* SDWebImage */,
+				32EF67A11BE7349C00C47174 /* Json */,
 				32BD09091BE491D40013E3D6 /* Common.h */,
 				32BD090A1BE492120013E3D6 /* PrefixHeader.pch */,
+				32EF67FC1BE7763B00C47174 /* StarView.h */,
+				32EF67FD1BE7763B00C47174 /* StarView.m */,
 			);
 			name = common;
+			sourceTree = "<group>";
+		};
+		32EF67A11BE7349C00C47174 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				32EF67A21BE7349C00C47174 /* actor.json */,
+				32EF67A31BE7349C00C47174 /* cinema_detail.json */,
+				32EF67A41BE7349C00C47174 /* cinema_list.json */,
+				32EF67A51BE7349C00C47174 /* detail.json */,
+				32EF67A61BE7349C00C47174 /* district_list.json */,
+				32EF67A71BE7349C00C47174 /* image_list.json */,
+				32EF67A81BE7349C00C47174 /* movie_comment.json */,
+				32EF67A91BE7349C00C47174 /* movie_detail.json */,
+				32EF67AA1BE7349C00C47174 /* news_detail.json */,
+				32EF67AB1BE7349C00C47174 /* news_detail_images.json */,
+				32EF67AC1BE7349C00C47174 /* news_list.json */,
+				32EF67AD1BE7349C00C47174 /* readyMovie.json */,
+				32EF67AE1BE7349C00C47174 /* search.json */,
+				32EF67AF1BE7349C00C47174 /* top250.json */,
+				32EF67B01BE7349C00C47174 /* us_box.json */,
+				32EF67B11BE7349C00C47174 /* 豆瓣api.rtf */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		32EF67CA1BE7648B00C47174 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				32EF67CB1BE7648B00C47174 /* MKAnnotationView+WebCache.h */,
+				32EF67CC1BE7648B00C47174 /* MKAnnotationView+WebCache.m */,
+				32EF67CD1BE7648B00C47174 /* NSData+ImageContentType.h */,
+				32EF67CE1BE7648B00C47174 /* NSData+ImageContentType.m */,
+				32EF67CF1BE7648B00C47174 /* SDImageCache.h */,
+				32EF67D01BE7648B00C47174 /* SDImageCache.m */,
+				32EF67D11BE7648B00C47174 /* SDWebImageCompat.h */,
+				32EF67D21BE7648B00C47174 /* SDWebImageCompat.m */,
+				32EF67D31BE7648B00C47174 /* SDWebImageDecoder.h */,
+				32EF67D41BE7648B00C47174 /* SDWebImageDecoder.m */,
+				32EF67D51BE7648B00C47174 /* SDWebImageDownloader.h */,
+				32EF67D61BE7648B00C47174 /* SDWebImageDownloader.m */,
+				32EF67D71BE7648B00C47174 /* SDWebImageDownloaderOperation.h */,
+				32EF67D81BE7648B00C47174 /* SDWebImageDownloaderOperation.m */,
+				32EF67D91BE7648B00C47174 /* SDWebImageManager.h */,
+				32EF67DA1BE7648B00C47174 /* SDWebImageManager.m */,
+				32EF67DB1BE7648B00C47174 /* SDWebImageOperation.h */,
+				32EF67DC1BE7648B00C47174 /* SDWebImagePrefetcher.h */,
+				32EF67DD1BE7648B00C47174 /* SDWebImagePrefetcher.m */,
+				32EF67DE1BE7648B00C47174 /* UIButton+WebCache.h */,
+				32EF67DF1BE7648B00C47174 /* UIButton+WebCache.m */,
+				32EF67E01BE7648B00C47174 /* UIImage+GIF.h */,
+				32EF67E11BE7648B00C47174 /* UIImage+GIF.m */,
+				32EF67E21BE7648B00C47174 /* UIImage+MultiFormat.h */,
+				32EF67E31BE7648B00C47174 /* UIImage+MultiFormat.m */,
+				32EF67E41BE7648B00C47174 /* UIImage+WebP.h */,
+				32EF67E51BE7648B00C47174 /* UIImage+WebP.m */,
+				32EF67E61BE7648B00C47174 /* UIImageView+HighlightedWebCache.h */,
+				32EF67E71BE7648B00C47174 /* UIImageView+HighlightedWebCache.m */,
+				32EF67E81BE7648B00C47174 /* UIImageView+WebCache.h */,
+				32EF67E91BE7648B00C47174 /* UIImageView+WebCache.m */,
+				32EF67EA1BE7648B00C47174 /* UIView+WebCacheOperation.h */,
+				32EF67EB1BE7648B00C47174 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -916,6 +1080,7 @@
 				32BD08F91BE46B720013E3D6 /* light.png in Resources */,
 				32BD09051BE46B720013E3D6 /* tableView_line_home@2x.png in Resources */,
 				32BD08F11BE46B720013E3D6 /* ypf_on.png in Resources */,
+				32EF67C11BE7349C00C47174 /* 豆瓣api.rtf in Resources */,
 				32BD08E51BE46B720013E3D6 /* movie_cinema.png in Resources */,
 				32BD08851BE46B720013E3D6 /* point@2x.png in Resources */,
 				32BD089C1BE46B720013E3D6 /* Icon@2x.png in Resources */,
@@ -931,6 +1096,7 @@
 				32BD08A81BE46B720013E3D6 /* 10@2x.png in Resources */,
 				32BD08A71BE46B720013E3D6 /* yellow@2x.png in Resources */,
 				32BD08D01BE46B720013E3D6 /* more_fav_on.png in Resources */,
+				32EF67B31BE7349C00C47174 /* cinema_detail.json in Resources */,
 				32BD08DB1BE46B720013E3D6 /* more_set.png in Resources */,
 				32BD08A41BE46B720013E3D6 /* selectTabbar_bg_all@2x.png in Resources */,
 				32BD08CE1BE46B720013E3D6 /* more_fav.png in Resources */,
@@ -952,6 +1118,7 @@
 				32BD08D71BE46B720013E3D6 /* more_search_on.png in Resources */,
 				32BD08F31BE46B720013E3D6 /* cell_bg_home.tiff in Resources */,
 				32BD08C91BE46B720013E3D6 /* scspxw.png in Resources */,
+				32EF67BD1BE7349C00C47174 /* readyMovie.json in Resources */,
 				32BD08D11BE46B720013E3D6 /* more_fav_on@2x.png in Resources */,
 				32BD08FB1BE46B720013E3D6 /* list_home.png in Resources */,
 				32BD09061BE46B720013E3D6 /* up_home.png in Resources */,
@@ -970,9 +1137,12 @@
 				32BD08921BE46B720013E3D6 /* zoomout.png in Resources */,
 				32BD08E71BE46B720013E3D6 /* movieDetail_comments_arrow.png in Resources */,
 				32BD08ED1BE46B720013E3D6 /* xk_on.png in Resources */,
+				32EF67B21BE7349C00C47174 /* actor.json in Resources */,
 				32BD08EA1BE46B720013E3D6 /* theater_coming@2x.png in Resources */,
 				32BD08DC1BE46B720013E3D6 /* more_set@2x.png in Resources */,
+				32EF67BB1BE7349C00C47174 /* news_detail_images.json in Resources */,
 				32BD08A11BE46B720013E3D6 /* selectTabbar_bg_all.png in Resources */,
+				32EF67B71BE7349C00C47174 /* image_list.json in Resources */,
 				32BD08B11BE46B720013E3D6 /* 19@2x.png in Resources */,
 				32BD08AB1BE46B720013E3D6 /* 13@2x.png in Resources */,
 				32BD08901BE46B720013E3D6 /* zoomin.png in Resources */,
@@ -981,20 +1151,25 @@
 				32BD088C1BE46B720013E3D6 /* volume_mute.png in Resources */,
 				32BD08CA1BE46B720013E3D6 /* scspxw@2x.png in Resources */,
 				32BD089A1BE46B720013E3D6 /* gray@2x.png in Resources */,
+				32EF67B41BE7349C00C47174 /* cinema_list.json in Resources */,
 				32BD08951BE46B720013E3D6 /* start_top250@2x.png in Resources */,
 				32BD08C71BE46B720013E3D6 /* msg_select_new.png in Resources */,
 				32BD08E11BE46B720013E3D6 /* moreView_setting_new.png in Resources */,
 				32BD088D1BE46B720013E3D6 /* volume_mute@2x.png in Resources */,
+				32EF67BF1BE7349C00C47174 /* top250.json in Resources */,
 				32BD08CB1BE46B720013E3D6 /* sctpxw.png in Resources */,
+				32EF67BE1BE7349C00C47174 /* search.json in Resources */,
 				32BD08BB1BE46B720013E3D6 /* 28@2x.png in Resources */,
 				32BD08D81BE46B720013E3D6 /* more_search_on@2x.png in Resources */,
 				32BD08B01BE46B720013E3D6 /* 18@2x.png in Resources */,
 				32BD08801BE46B720013E3D6 /* pause.png in Resources */,
 				32BD08941BE46B720013E3D6 /* start_top250.png in Resources */,
 				32BD08FC1BE46B720013E3D6 /* list_home@2x.png in Resources */,
+				32EF67B91BE7349C00C47174 /* movie_detail.json in Resources */,
 				32BD08F41BE46B720013E3D6 /* down_home.png in Resources */,
 				32BD087C1BE46B720013E3D6 /* duration_tip.png in Resources */,
 				32BD08AC1BE46B720013E3D6 /* 14@2x.png in Resources */,
+				32EF67C91BE7514600C47174 /* MovieCell.xib in Resources */,
 				32BD08DF1BE46B720013E3D6 /* more_setting.png in Resources */,
 				32BD08E91BE46B720013E3D6 /* theater_coming.png in Resources */,
 				32BD09011BE46B720013E3D6 /* poster_home.png in Resources */,
@@ -1007,6 +1182,7 @@
 				32BD08FA1BE46B720013E3D6 /* light@2x.png in Resources */,
 				32BD088F1BE46B720013E3D6 /* volume_tip@2x.png in Resources */,
 				32BD08EC1BE46B720013E3D6 /* xk@2x.png in Resources */,
+				32EF67B81BE7349C00C47174 /* movie_comment.json in Resources */,
 				32BD08C21BE46B720013E3D6 /* 8@2x.png in Resources */,
 				32BD08FD1BE46B720013E3D6 /* movie_home.png in Resources */,
 				32BD08871BE46B720013E3D6 /* progress_blue_bar@2x.png in Resources */,
@@ -1015,6 +1191,7 @@
 				32BD08961BE46B720013E3D6 /* bg_main@2x.png in Resources */,
 				32BD07A61BE45D1C0013E3D6 /* LaunchScreen.xib in Resources */,
 				32BD09031BE46B720013E3D6 /* poster_title_home.png in Resources */,
+				32EF67B61BE7349C00C47174 /* district_list.json in Resources */,
 				32BD088A1BE46B720013E3D6 /* volume.png in Resources */,
 				32BD08F71BE46B720013E3D6 /* indexBG_home.png in Resources */,
 				32BD08D21BE46B720013E3D6 /* more_info@2x.png in Resources */,
@@ -1028,6 +1205,7 @@
 				32BD09041BE46B720013E3D6 /* poster_title_home@2x.png in Resources */,
 				32BD08EB1BE46B720013E3D6 /* xk.png in Resources */,
 				32BD08831BE46B720013E3D6 /* play@2x.png in Resources */,
+				32EF67B51BE7349C00C47174 /* detail.json in Resources */,
 				32BD08C41BE46B720013E3D6 /* backItem@2x.png in Resources */,
 				32BD08C11BE46B720013E3D6 /* 7@2x.png in Resources */,
 				32BD08DE1BE46B720013E3D6 /* more_set_on@2x.png in Resources */,
@@ -1038,6 +1216,7 @@
 				32BD08BE1BE46B720013E3D6 /* 4@2x.png in Resources */,
 				32BD08FE1BE46B720013E3D6 /* movie_home@2x.png in Resources */,
 				32BD08991BE46B720013E3D6 /* Default@2x.png in Resources */,
+				32EF67BC1BE7349C00C47174 /* news_list.json in Resources */,
 				32BD08E01BE46B720013E3D6 /* more_setting@2x.png in Resources */,
 				32BD08BA1BE46B720013E3D6 /* 27@2x.png in Resources */,
 				32BD08911BE46B720013E3D6 /* zoomin@2x.png in Resources */,
@@ -1047,6 +1226,7 @@
 				32BD087E1BE46B720013E3D6 /* line.png in Resources */,
 				32BD08D41BE46B720013E3D6 /* more_phb@2x.png in Resources */,
 				32BD08B61BE46B720013E3D6 /* 23@2x.png in Resources */,
+				32EF67C01BE7349C00C47174 /* us_box.json in Resources */,
 				32BD08DD1BE46B720013E3D6 /* more_set_on.png in Resources */,
 				32BD08931BE46B720013E3D6 /* zoomout@2x.png in Resources */,
 				32BD08AA1BE46B720013E3D6 /* 12@2x.png in Resources */,
@@ -1054,6 +1234,7 @@
 				32BD089E1BE46B720013E3D6 /* nav_bg_all-64@2x.png in Resources */,
 				32BD08D31BE46B720013E3D6 /* more_info_on@2x.png in Resources */,
 				32BD08BF1BE46B720013E3D6 /* 5@2x.png in Resources */,
+				32EF67BA1BE7349C00C47174 /* news_detail.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1071,17 +1252,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32EF68011BE789F900C47174 /* MoveInfo.m in Sources */,
 				32BD090D1BE49B860013E3D6 /* RXBarItem.m in Sources */,
+				32EF67F81BE7648B00C47174 /* UIImage+WebP.m in Sources */,
 				32BD079E1BE45D1C0013E3D6 /* ViewController.m in Sources */,
 				32BD07DA1BE464E90013E3D6 /* MoreViewController.m in Sources */,
 				32BD07D71BE464DA0013E3D6 /* CinemaViewController.m in Sources */,
 				32BD07E01BE465050013E3D6 /* NewsViewController.m in Sources */,
 				32BD07DD1BE464F60013E3D6 /* MovieViewController.m in Sources */,
+				32EF67F21BE7648B00C47174 /* SDWebImageDownloaderOperation.m in Sources */,
+				32EF67FE1BE7763B00C47174 /* StarView.m in Sources */,
 				32BD07D41BE464BA0013E3D6 /* BasicViewController.m in Sources */,
+				32EF67EE1BE7648B00C47174 /* SDImageCache.m in Sources */,
 				32BD07E61BE467E70013E3D6 /* MainTabBarController.m in Sources */,
 				32BD079B1BE45D1C0013E3D6 /* AppDelegate.m in Sources */,
+				32EF67EF1BE7648B00C47174 /* SDWebImageCompat.m in Sources */,
+				32EF67ED1BE7648B00C47174 /* NSData+ImageContentType.m in Sources */,
 				32BD07981BE45D1C0013E3D6 /* main.m in Sources */,
+				32EF67F31BE7648B00C47174 /* SDWebImageManager.m in Sources */,
+				32EF67F11BE7648B00C47174 /* SDWebImageDownloader.m in Sources */,
+				32EF67FA1BE7648B00C47174 /* UIImageView+WebCache.m in Sources */,
+				32EF67F91BE7648B00C47174 /* UIImageView+HighlightedWebCache.m in Sources */,
+				32EF67EC1BE7648B00C47174 /* MKAnnotationView+WebCache.m in Sources */,
+				32EF67F61BE7648B00C47174 /* UIImage+GIF.m in Sources */,
 				32BD07E31BE465130013E3D6 /* TopViewController.m in Sources */,
+				32EF67F41BE7648B00C47174 /* SDWebImagePrefetcher.m in Sources */,
+				32EF67F51BE7648B00C47174 /* UIButton+WebCache.m in Sources */,
+				32EF67F71BE7648B00C47174 /* UIImage+MultiFormat.m in Sources */,
+				32EF67F01BE7648B00C47174 /* SDWebImageDecoder.m in Sources */,
+				32EF67FB1BE7648B00C47174 /* UIView+WebCacheOperation.m in Sources */,
+				32EF67C81BE7514600C47174 /* MovieCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1276,6 +1476,7 @@
 				32BD07B71BE45D1C0013E3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32BD07B81BE45D1C0013E3D6 /* Build configuration list for PBXNativeTarget "时光网Tests" */ = {
 			isa = XCConfigurationList;
@@ -1284,6 +1485,7 @@
 				32BD07BA1BE45D1C0013E3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
