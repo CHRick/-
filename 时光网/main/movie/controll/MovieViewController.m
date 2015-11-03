@@ -60,7 +60,8 @@
     [super viewDidLoad];
     [self createExchangeButton];
     [self createView];
-    self.title = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"us_box.json" ofType:nil]] options:NSJSONReadingMutableContainers error:nil][@"title"];
+    
+    self.title = [DataRequirst jsonData:@"us_box.json"][@"title"];
 }
 
 #pragma mark - createView
@@ -112,10 +113,10 @@
     UIViewAnimationOptions option = list.hidden ? UIViewAnimationOptionTransitionFlipFromLeft : UIViewAnimationOptionTransitionFlipFromRight;
     
     [UIView transitionWithView:btn.superview duration:0.5 options:option animations:^{
-//        [btn.superview exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
-//        [self.view exchangeSubviewAtIndex:2 withSubviewAtIndex:3];
+
+
         [UIView transitionWithView:self.view duration:0.5 options:option animations:^{
-            //        [self.view exchangeSubviewAtIndex:2 withSubviewAtIndex:3];
+
         } completion:nil];
     } completion:nil];
     

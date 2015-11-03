@@ -7,16 +7,30 @@
 //
 
 #import "NewsViewController.h"
+#import "NewsModel.h"
+#import "NewsCell.h"
+#import "UIImageView+WebCache.h"
 
-@interface NewsViewController ()
+@interface NewsViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property (nonatomic,copy) NSArray *newsInfo;
 
 @end
 
 @implementation NewsViewController
 
+- (NSArray *)newsInfo
+{
+    if (_newsInfo == nil) {
+        _newsInfo = [NewsModel newsModel];
+    }
+    return _newsInfo;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg_main"]];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +38,35 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - tabelViewDataSuorce
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.newsInfo.count;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NewsModel *news = self.newsInfo[indexPath.row];
+    if (indexPath.row == 0) {
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"NewsHeadCell"];
+        UIImageView *imageView = (UIImageView *)[cell.contentView viewWithTag:100];
+        [imageView sd_setImageWithURL:[NSURL URLWithString:news.image]];
+        UILabel *label = (UILabel *)[cell.contentView viewWithTag:101];
+        label.text = news.title;
+        label.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.5];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        return cell;
+    }
+    NewsCell *cell = [tableView dequeueReusableCellWithIdentifier:@"NewsNormalCell"];
+    [cell cellSetInfo:news];
+    cell.selectionStyle = UITableViewCellSelectionStyleGray;
+    return cell;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return indexPath.row ? 60 : 150;
+}
 
 @end

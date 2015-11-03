@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322F320E1BE83C4900B29C84 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F320D1BE83C4900B29C84 /* NewsModel.m */; };
+		322F32111BE8509000B29C84 /* DataRequirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F32101BE8509000B29C84 /* DataRequirst.m */; };
 		32BD07981BE45D1C0013E3D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD07971BE45D1C0013E3D6 /* main.m */; };
 		32BD079B1BE45D1C0013E3D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD079A1BE45D1C0013E3D6 /* AppDelegate.m */; };
 		32BD079E1BE45D1C0013E3D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD079D1BE45D1C0013E3D6 /* ViewController.m */; };
@@ -162,6 +164,7 @@
 		32BD09061BE46B720013E3D6 /* up_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BD087A1BE46B720013E3D6 /* up_home.png */; };
 		32BD09071BE46B720013E3D6 /* up_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BD087B1BE46B720013E3D6 /* up_home@2x.png */; };
 		32BD090D1BE49B860013E3D6 /* RXBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD090C1BE49B860013E3D6 /* RXBarItem.m */; };
+		32CA22F31BE87F080037891B /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA22F21BE87F080037891B /* NewsCell.m */; };
 		32EF67B21BE7349C00C47174 /* actor.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A21BE7349C00C47174 /* actor.json */; };
 		32EF67B31BE7349C00C47174 /* cinema_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A31BE7349C00C47174 /* cinema_detail.json */; };
 		32EF67B41BE7349C00C47174 /* cinema_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A41BE7349C00C47174 /* cinema_list.json */; };
@@ -211,6 +214,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		322F320C1BE83C4900B29C84 /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		322F320D1BE83C4900B29C84 /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		322F320F1BE8509000B29C84 /* DataRequirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRequirst.h; sourceTree = "<group>"; };
+		322F32101BE8509000B29C84 /* DataRequirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRequirst.m; sourceTree = "<group>"; };
 		32BD07921BE45D1C0013E3D6 /* 时光网.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时光网.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BD07961BE45D1C0013E3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32BD07971BE45D1C0013E3D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -382,6 +389,8 @@
 		32BD090A1BE492120013E3D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		32BD090B1BE49B860013E3D6 /* RXBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXBarItem.h; sourceTree = "<group>"; };
 		32BD090C1BE49B860013E3D6 /* RXBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXBarItem.m; sourceTree = "<group>"; };
+		32CA22F11BE87F080037891B /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		32CA22F21BE87F080037891B /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
 		32EF67A21BE7349C00C47174 /* actor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = actor.json; sourceTree = "<group>"; };
 		32EF67A31BE7349C00C47174 /* cinema_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_detail.json; sourceTree = "<group>"; };
 		32EF67A41BE7349C00C47174 /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
@@ -647,7 +656,7 @@
 			children = (
 				32BD07CB1BE461D00013E3D6 /* controll */,
 				32BD07CC1BE461D00013E3D6 /* model */,
-				32BD07CD1BE461D00013E3D6 /* view */,
+				32CA22F01BE87EB80037891B /* view */,
 			);
 			path = news;
 			sourceTree = "<group>";
@@ -664,15 +673,10 @@
 		32BD07CC1BE461D00013E3D6 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				322F320C1BE83C4900B29C84 /* NewsModel.h */,
+				322F320D1BE83C4900B29C84 /* NewsModel.m */,
 			);
 			path = model;
-			sourceTree = "<group>";
-		};
-		32BD07CD1BE461D00013E3D6 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 		32BD07CE1BE461D00013E3D6 /* top */ = {
@@ -928,8 +932,19 @@
 				32BD090A1BE492120013E3D6 /* PrefixHeader.pch */,
 				32EF67FC1BE7763B00C47174 /* StarView.h */,
 				32EF67FD1BE7763B00C47174 /* StarView.m */,
+				322F320F1BE8509000B29C84 /* DataRequirst.h */,
+				322F32101BE8509000B29C84 /* DataRequirst.m */,
 			);
 			name = common;
+			sourceTree = "<group>";
+		};
+		32CA22F01BE87EB80037891B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				32CA22F11BE87F080037891B /* NewsCell.h */,
+				32CA22F21BE87F080037891B /* NewsCell.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		32EF67A11BE7349C00C47174 /* Json */ = {
@@ -1254,13 +1269,16 @@
 			files = (
 				32EF68011BE789F900C47174 /* MoveInfo.m in Sources */,
 				32BD090D1BE49B860013E3D6 /* RXBarItem.m in Sources */,
+				322F32111BE8509000B29C84 /* DataRequirst.m in Sources */,
 				32EF67F81BE7648B00C47174 /* UIImage+WebP.m in Sources */,
 				32BD079E1BE45D1C0013E3D6 /* ViewController.m in Sources */,
+				32CA22F31BE87F080037891B /* NewsCell.m in Sources */,
 				32BD07DA1BE464E90013E3D6 /* MoreViewController.m in Sources */,
 				32BD07D71BE464DA0013E3D6 /* CinemaViewController.m in Sources */,
 				32BD07E01BE465050013E3D6 /* NewsViewController.m in Sources */,
 				32BD07DD1BE464F60013E3D6 /* MovieViewController.m in Sources */,
 				32EF67F21BE7648B00C47174 /* SDWebImageDownloaderOperation.m in Sources */,
+				322F320E1BE83C4900B29C84 /* NewsModel.m in Sources */,
 				32EF67FE1BE7763B00C47174 /* StarView.m in Sources */,
 				32BD07D41BE464BA0013E3D6 /* BasicViewController.m in Sources */,
 				32EF67EE1BE7648B00C47174 /* SDImageCache.m in Sources */,

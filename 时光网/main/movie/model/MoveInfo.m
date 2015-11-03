@@ -25,13 +25,21 @@
 + (NSArray *)moveInfo
 {
     NSMutableArray *arrayM = [NSMutableArray array];
-    NSData *data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"us_box.json" ofType:nil]];
-    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+//    NSData *data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"us_box.json" ofType:nil]];
+//    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+    NSDictionary *dic = [DataRequirst jsonData:@"us_box.json"];
     for (NSDictionary *dict in dic[@"subjects"]) {
         MoveInfo *info = [MoveInfo moveInfoWithDictionary:dict[@"subject"]];
         [arrayM addObject:info];
     }
     return arrayM;
+}
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    if ([key isEqualToString:@"id"] || [key isEqualToString:@"ID"]) {
+        self.myID = value;
+    }
 }
 
 

@@ -19,6 +19,7 @@
 @property (nonatomic,copy) NSNumber *year;
 @property (nonatomic,copy) NSString *original_title;
 @property (nonatomic,copy) NSString *alt;
+@property (nonatomic,copy) NSNumber *myID;
 
 @property (nonatomic,copy) NSArray *moveInfo;
 
