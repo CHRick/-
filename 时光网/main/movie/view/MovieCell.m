@@ -20,7 +20,7 @@
  */
 - (void)setMovieInfo:(MoveInfo *)info
 {
-    float stars = [info.rating[@"stars"] integerValue] / 10.0;
+    float stars = [info.rating[@"average"] integerValue] / 10.0;
     StarView *star = [[StarView alloc]initWithFrame:self.ratingView.bounds withStars:stars];
     [self.ratingView addSubview:star];
     

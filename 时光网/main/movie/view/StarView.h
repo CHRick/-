@@ -12,4 +12,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame withStars:(float)stars;
 
+- (void)stars:(float)rating;
+
 @end

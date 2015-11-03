@@ -39,7 +39,7 @@
         grayView.frame = grayFrame;
         [self addSubview:grayView];
         
-        UIView *yellowView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, grayStar.size.width * stars, grayStar.size.height)];
+        UIView *yellowView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, grayStar.size.width * 5 * stars, grayStar.size.height)];
         yellowView.backgroundColor = [UIColor colorWithPatternImage:yellowStar];
         yellowView.transform = CGAffineTransformMakeScale(scale, scale);
         CGRect yellowFrame = yellowView.frame;
@@ -50,5 +50,34 @@
     }
     return self;
 }
+
+- (void)stars:(float)rating
+{
+    UIImage *grayStar = [UIImage imageNamed:@"gray"];
+    UIImage *yellowStar = [UIImage imageNamed:@"yellow"];
+    
+    CGFloat scale = self.frame.size.height / grayStar.size.height;
+    
+    CGRect frame = self.frame;
+    frame.size.width = frame.size.height * 5;
+    self.frame = frame;
+    
+    UIView *grayView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, grayStar.size.width * 5, grayStar.size.height)];
+    grayView.backgroundColor = [UIColor colorWithPatternImage:grayStar];
+    grayView.transform = CGAffineTransformMakeScale(scale, scale);
+    CGRect grayFrame = grayView.frame;
+    grayFrame.origin = CGPointZero;
+    grayView.frame = grayFrame;
+    [self addSubview:grayView];
+    
+    UIView *yellowView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, grayStar.size.width * 5 * rating, grayStar.size.height)];
+    yellowView.backgroundColor = [UIColor colorWithPatternImage:yellowStar];
+    yellowView.transform = CGAffineTransformMakeScale(scale, scale);
+    CGRect yellowFrame = yellowView.frame;
+    yellowFrame.origin = CGPointZero;
+    yellowView.frame = yellowFrame;
+    [self addSubview:yellowView];
+}
+
 
 @end

@@ -165,6 +165,7 @@
 		32BD09071BE46B720013E3D6 /* up_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BD087B1BE46B720013E3D6 /* up_home@2x.png */; };
 		32BD090D1BE49B860013E3D6 /* RXBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD090C1BE49B860013E3D6 /* RXBarItem.m */; };
 		32CA22F31BE87F080037891B /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA22F21BE87F080037891B /* NewsCell.m */; };
+		32CA23641BE8AB4A0037891B /* TopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA23631BE8AB4A0037891B /* TopModel.m */; };
 		32EF67B21BE7349C00C47174 /* actor.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A21BE7349C00C47174 /* actor.json */; };
 		32EF67B31BE7349C00C47174 /* cinema_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A31BE7349C00C47174 /* cinema_detail.json */; };
 		32EF67B41BE7349C00C47174 /* cinema_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A41BE7349C00C47174 /* cinema_list.json */; };
@@ -391,6 +392,8 @@
 		32BD090C1BE49B860013E3D6 /* RXBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXBarItem.m; sourceTree = "<group>"; };
 		32CA22F11BE87F080037891B /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
 		32CA22F21BE87F080037891B /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		32CA23621BE8AB4A0037891B /* TopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopModel.h; sourceTree = "<group>"; };
+		32CA23631BE8AB4A0037891B /* TopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopModel.m; sourceTree = "<group>"; };
 		32EF67A21BE7349C00C47174 /* actor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = actor.json; sourceTree = "<group>"; };
 		32EF67A31BE7349C00C47174 /* cinema_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_detail.json; sourceTree = "<group>"; };
 		32EF67A41BE7349C00C47174 /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
@@ -701,6 +704,8 @@
 		32BD07D01BE461D00013E3D6 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				32CA23621BE8AB4A0037891B /* TopModel.h */,
+				32CA23631BE8AB4A0037891B /* TopModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -1296,6 +1301,7 @@
 				32BD07E31BE465130013E3D6 /* TopViewController.m in Sources */,
 				32EF67F41BE7648B00C47174 /* SDWebImagePrefetcher.m in Sources */,
 				32EF67F51BE7648B00C47174 /* UIButton+WebCache.m in Sources */,
+				32CA23641BE8AB4A0037891B /* TopModel.m in Sources */,
 				32EF67F71BE7648B00C47174 /* UIImage+MultiFormat.m in Sources */,
 				32EF67F01BE7648B00C47174 /* SDWebImageDecoder.m in Sources */,
 				32EF67FB1BE7648B00C47174 /* UIView+WebCacheOperation.m in Sources */,

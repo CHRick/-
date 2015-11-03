@@ -60,8 +60,6 @@
     [super viewDidLoad];
     [self createExchangeButton];
     [self createView];
-    
-    self.title = [DataRequirst jsonData:@"us_box.json"][@"title"];
 }
 
 #pragma mark - createView
