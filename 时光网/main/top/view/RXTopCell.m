@@ -8,8 +8,8 @@
 
 #import "RXTopCell.h"
 #import "StarView.h"
-#import "UIImageView+WebCache.h"
 #import "TopModel.h"
+#import "UIImageView+WebCache.h"
 
 #define kCellW self.frame.size.width
 #define kCellH self.frame.size.height

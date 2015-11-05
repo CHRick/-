@@ -167,6 +167,14 @@
 		32CA22F31BE87F080037891B /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA22F21BE87F080037891B /* NewsCell.m */; };
 		32CA23641BE8AB4A0037891B /* TopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA23631BE8AB4A0037891B /* TopModel.m */; };
 		32CA236F1BE98A200037891B /* RXTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA236E1BE98A200037891B /* RXTopCell.m */; };
+		32CA23F11BEB26BA0037891B /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA23F01BEB26BA0037891B /* DetailVC.m */; };
+		32CA23F41BEB26CB0037891B /* ImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA23F31BEB26CB0037891B /* ImageVC.m */; };
+		32CA23F71BEB26F10037891B /* VedioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA23F61BEB26F10037891B /* VedioVC.m */; };
+		32CA23FE1BEB2E880037891B /* NewsCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA23FC1BEB2E880037891B /* NewsCVCell.m */; };
+		32CA23FF1BEB2E880037891B /* NewsCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CA23FD1BEB2E880037891B /* NewsCVCell.xib */; };
+		32CA24021BEB35300037891B /* NImageModel .m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24001BEB35300037891B /* NImageModel .m */; };
+		32CA24051BEB3C4F0037891B /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24041BEB3C4F0037891B /* BaseModel.m */; };
+		32CA24081BEB4FF70037891B /* ScanImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24071BEB4FF70037891B /* ScanImageVC.m */; };
 		32EF67B21BE7349C00C47174 /* actor.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A21BE7349C00C47174 /* actor.json */; };
 		32EF67B31BE7349C00C47174 /* cinema_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A31BE7349C00C47174 /* cinema_detail.json */; };
 		32EF67B41BE7349C00C47174 /* cinema_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A41BE7349C00C47174 /* cinema_list.json */; };
@@ -397,6 +405,21 @@
 		32CA23631BE8AB4A0037891B /* TopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopModel.m; sourceTree = "<group>"; };
 		32CA236D1BE98A200037891B /* RXTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTopCell.h; sourceTree = "<group>"; };
 		32CA236E1BE98A200037891B /* RXTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTopCell.m; sourceTree = "<group>"; };
+		32CA23EF1BEB26BA0037891B /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		32CA23F01BEB26BA0037891B /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		32CA23F21BEB26CB0037891B /* ImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageVC.h; sourceTree = "<group>"; };
+		32CA23F31BEB26CB0037891B /* ImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageVC.m; sourceTree = "<group>"; };
+		32CA23F51BEB26F10037891B /* VedioVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioVC.h; sourceTree = "<group>"; };
+		32CA23F61BEB26F10037891B /* VedioVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioVC.m; sourceTree = "<group>"; };
+		32CA23FB1BEB2E880037891B /* NewsCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCVCell.h; sourceTree = "<group>"; };
+		32CA23FC1BEB2E880037891B /* NewsCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCVCell.m; sourceTree = "<group>"; };
+		32CA23FD1BEB2E880037891B /* NewsCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCVCell.xib; sourceTree = "<group>"; };
+		32CA24001BEB35300037891B /* NImageModel .m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NImageModel .m"; sourceTree = "<group>"; };
+		32CA24011BEB35300037891B /* NImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NImageModel.h; sourceTree = "<group>"; };
+		32CA24031BEB3C4F0037891B /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		32CA24041BEB3C4F0037891B /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		32CA24061BEB4FF70037891B /* ScanImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanImageVC.h; sourceTree = "<group>"; };
+		32CA24071BEB4FF70037891B /* ScanImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanImageVC.m; sourceTree = "<group>"; };
 		32EF67A21BE7349C00C47174 /* actor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = actor.json; sourceTree = "<group>"; };
 		32EF67A31BE7349C00C47174 /* cinema_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_detail.json; sourceTree = "<group>"; };
 		32EF67A41BE7349C00C47174 /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
@@ -672,6 +695,14 @@
 			children = (
 				32BD07DE1BE465050013E3D6 /* NewsViewController.h */,
 				32BD07DF1BE465050013E3D6 /* NewsViewController.m */,
+				32CA23EF1BEB26BA0037891B /* DetailVC.h */,
+				32CA23F01BEB26BA0037891B /* DetailVC.m */,
+				32CA23F21BEB26CB0037891B /* ImageVC.h */,
+				32CA23F31BEB26CB0037891B /* ImageVC.m */,
+				32CA23F51BEB26F10037891B /* VedioVC.h */,
+				32CA23F61BEB26F10037891B /* VedioVC.m */,
+				32CA24061BEB4FF70037891B /* ScanImageVC.h */,
+				32CA24071BEB4FF70037891B /* ScanImageVC.m */,
 			);
 			path = controll;
 			sourceTree = "<group>";
@@ -681,6 +712,8 @@
 			children = (
 				322F320C1BE83C4900B29C84 /* NewsModel.h */,
 				322F320D1BE83C4900B29C84 /* NewsModel.m */,
+				32CA24001BEB35300037891B /* NImageModel .m */,
+				32CA24011BEB35300037891B /* NImageModel.h */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -944,6 +977,8 @@
 				32EF67FD1BE7763B00C47174 /* StarView.m */,
 				322F320F1BE8509000B29C84 /* DataRequirst.h */,
 				322F32101BE8509000B29C84 /* DataRequirst.m */,
+				32CA24031BEB3C4F0037891B /* BaseModel.h */,
+				32CA24041BEB3C4F0037891B /* BaseModel.m */,
 			);
 			name = common;
 			sourceTree = "<group>";
@@ -953,6 +988,9 @@
 			children = (
 				32CA22F11BE87F080037891B /* NewsCell.h */,
 				32CA22F21BE87F080037891B /* NewsCell.m */,
+				32CA23FB1BEB2E880037891B /* NewsCVCell.h */,
+				32CA23FC1BEB2E880037891B /* NewsCVCell.m */,
+				32CA23FD1BEB2E880037891B /* NewsCVCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1256,6 +1294,7 @@
 				32BD08931BE46B720013E3D6 /* zoomout@2x.png in Resources */,
 				32BD08AA1BE46B720013E3D6 /* 12@2x.png in Resources */,
 				32BD088B1BE46B720013E3D6 /* volume@2x.png in Resources */,
+				32CA23FF1BEB2E880037891B /* NewsCVCell.xib in Resources */,
 				32BD089E1BE46B720013E3D6 /* nav_bg_all-64@2x.png in Resources */,
 				32BD08D31BE46B720013E3D6 /* more_info_on@2x.png in Resources */,
 				32BD08BF1BE46B720013E3D6 /* 5@2x.png in Resources */,
@@ -1286,6 +1325,7 @@
 				32CA22F31BE87F080037891B /* NewsCell.m in Sources */,
 				32BD07DA1BE464E90013E3D6 /* MoreViewController.m in Sources */,
 				32BD07D71BE464DA0013E3D6 /* CinemaViewController.m in Sources */,
+				32CA23F11BEB26BA0037891B /* DetailVC.m in Sources */,
 				32BD07E01BE465050013E3D6 /* NewsViewController.m in Sources */,
 				32BD07DD1BE464F60013E3D6 /* MovieViewController.m in Sources */,
 				32EF67F21BE7648B00C47174 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -1295,17 +1335,23 @@
 				32EF67EE1BE7648B00C47174 /* SDImageCache.m in Sources */,
 				32BD07E61BE467E70013E3D6 /* MainTabBarController.m in Sources */,
 				32BD079B1BE45D1C0013E3D6 /* AppDelegate.m in Sources */,
+				32CA24081BEB4FF70037891B /* ScanImageVC.m in Sources */,
+				32CA24021BEB35300037891B /* NImageModel .m in Sources */,
 				32EF67EF1BE7648B00C47174 /* SDWebImageCompat.m in Sources */,
 				32EF67ED1BE7648B00C47174 /* NSData+ImageContentType.m in Sources */,
 				32BD07981BE45D1C0013E3D6 /* main.m in Sources */,
 				32EF67F31BE7648B00C47174 /* SDWebImageManager.m in Sources */,
 				32EF67F11BE7648B00C47174 /* SDWebImageDownloader.m in Sources */,
+				32CA23F71BEB26F10037891B /* VedioVC.m in Sources */,
 				32EF67FA1BE7648B00C47174 /* UIImageView+WebCache.m in Sources */,
 				32EF67F91BE7648B00C47174 /* UIImageView+HighlightedWebCache.m in Sources */,
 				32EF67EC1BE7648B00C47174 /* MKAnnotationView+WebCache.m in Sources */,
+				32CA23FE1BEB2E880037891B /* NewsCVCell.m in Sources */,
+				32CA24051BEB3C4F0037891B /* BaseModel.m in Sources */,
 				32EF67F61BE7648B00C47174 /* UIImage+GIF.m in Sources */,
 				32BD07E31BE465130013E3D6 /* TopViewController.m in Sources */,
 				32EF67F41BE7648B00C47174 /* SDWebImagePrefetcher.m in Sources */,
+				32CA23F41BEB26CB0037891B /* ImageVC.m in Sources */,
 				32EF67F51BE7648B00C47174 /* UIButton+WebCache.m in Sources */,
 				32CA23641BE8AB4A0037891B /* TopModel.m in Sources */,
 				32EF67F71BE7648B00C47174 /* UIImage+MultiFormat.m in Sources */,

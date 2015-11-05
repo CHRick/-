@@ -10,6 +10,8 @@
 #import "NewsModel.h"
 #import "NewsCell.h"
 #import "UIImageView+WebCache.h"
+#import "DetailVC.h"
+#import "ImageVC.h"
 
 @interface NewsViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -100,5 +102,40 @@
     self.headerImageView.transform = (scrollView.contentOffset.y <=0) ? CGAffineTransformMakeScale(scale, scale) : CGAffineTransformMakeTranslation(0, -scrollView.contentOffset.y * 0.9);
     self.headerTitleLabel.frame = CGRectMake(0, CGRectGetMaxY(self.headerImageView.frame) - 30, kScreenW, 30);
 }
+
+#pragma  mark - tabelViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NewsModel *news = self.newsInfo[indexPath.row];
+    NSInteger type = [news.type integerValue];
+    if (type == 0) {
+        DetailVC *detaleVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailVC"];
+        [self.navigationController pushViewController:detaleVC animated:YES];
+    }else if (type == 1){
+        ImageVC *imageVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ImageVC"];
+        [self.navigationController pushViewController:imageVC animated:YES];
+    }else if (type == 2){
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end

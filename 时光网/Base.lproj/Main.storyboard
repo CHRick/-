@@ -168,6 +168,61 @@
             </objects>
             <point key="canvasLocation" x="-379" y="-504"/>
         </scene>
+        <!--DetailVC-->
+        <scene sceneID="4qj-Rn-T66">
+            <objects>
+                <viewController storyboardIdentifier="DetailVC" hidesBottomBarWhenPushed="YES" id="5Bp-KH-Hvd" customClass="DetailVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nBi-mC-i4X">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aQ2-zS-9Qc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uGN-Ya-cpM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34" y="796"/>
+        </scene>
+        <!--ImageVC-->
+        <scene sceneID="S3C-9N-EY1">
+            <objects>
+                <viewController storyboardIdentifier="ImageVC" hidesBottomBarWhenPushed="YES" id="8gj-8b-2zG" customClass="ImageVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CQZ-Yc-WRz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vkj-5b-Kts" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="461" y="794"/>
+        </scene>
+        <!--Scan ImageVC-->
+        <scene sceneID="PiA-RU-zWD">
+            <objects>
+                <viewController storyboardIdentifier="ScanImageVC" hidesBottomBarWhenPushed="YES" id="oxx-72-1Dy" customClass="ScanImageVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UNI-Gh-UIn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="zNA-Xd-SLd" appends="YES" id="BDI-M9-2jM"/>
+                            <outletCollection property="gestureRecognizers" destination="1n3-91-YC1" appends="YES" id="IlF-EC-EmM"/>
+                        </connections>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <connections>
+                        <outlet property="doubleTap" destination="zNA-Xd-SLd" id="rN0-5W-HAo"/>
+                        <outlet property="singleTap" destination="1n3-91-YC1" id="LS2-TD-s72"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tnT-U4-1nh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="zNA-Xd-SLd"/>
+                <tapGestureRecognizer id="1n3-91-YC1"/>
+            </objects>
+            <point key="canvasLocation" x="833" y="791"/>
+        </scene>
         <!--more View Controller-->
         <scene sceneID="eab-mx-uF0">
             <objects>

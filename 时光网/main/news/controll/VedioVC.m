@@ -1,26 +1,22 @@
 //
-//  BasicViewController.m
+//  VedioVC.m
 //  时光网
 //
-//  Created by 汇文 on 15/10/31.
+//  Created by 汇文 on 15/11/5.
 //  Copyright (c) 2015年 Rick. All rights reserved.
 //
 
-#import "BasicViewController.h"
+#import "VedioVC.h"
 
-
-
-@interface BasicViewController ()
+@interface VedioVC ()
 
 @end
 
-@implementation BasicViewController
-
+@implementation VedioVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
