@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 @class MoveInfo;
+@class StarView;
 
 @interface MovieCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UIView *ratingView;
+@property (weak, nonatomic) IBOutlet StarView *ratingView;
 @property (weak, nonatomic) IBOutlet UILabel *yearLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *posterView;
 @property (weak, nonatomic) IBOutlet UILabel *ratingLabel;

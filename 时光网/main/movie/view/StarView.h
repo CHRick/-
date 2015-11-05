@@ -10,8 +10,9 @@
 
 @interface StarView : UIView
 
-- (instancetype)initWithFrame:(CGRect)frame withStars:(float)stars;
+@property (nonatomic,assign) float rating;
 
-- (void)stars:(float)rating;
+
+//- (void)stars:(float)rating;
 
 @end

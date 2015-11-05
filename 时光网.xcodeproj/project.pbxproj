@@ -166,6 +166,7 @@
 		32BD090D1BE49B860013E3D6 /* RXBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD090C1BE49B860013E3D6 /* RXBarItem.m */; };
 		32CA22F31BE87F080037891B /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA22F21BE87F080037891B /* NewsCell.m */; };
 		32CA23641BE8AB4A0037891B /* TopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA23631BE8AB4A0037891B /* TopModel.m */; };
+		32CA236F1BE98A200037891B /* RXTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA236E1BE98A200037891B /* RXTopCell.m */; };
 		32EF67B21BE7349C00C47174 /* actor.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A21BE7349C00C47174 /* actor.json */; };
 		32EF67B31BE7349C00C47174 /* cinema_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A31BE7349C00C47174 /* cinema_detail.json */; };
 		32EF67B41BE7349C00C47174 /* cinema_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A41BE7349C00C47174 /* cinema_list.json */; };
@@ -394,6 +395,8 @@
 		32CA22F21BE87F080037891B /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
 		32CA23621BE8AB4A0037891B /* TopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopModel.h; sourceTree = "<group>"; };
 		32CA23631BE8AB4A0037891B /* TopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopModel.m; sourceTree = "<group>"; };
+		32CA236D1BE98A200037891B /* RXTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTopCell.h; sourceTree = "<group>"; };
+		32CA236E1BE98A200037891B /* RXTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTopCell.m; sourceTree = "<group>"; };
 		32EF67A21BE7349C00C47174 /* actor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = actor.json; sourceTree = "<group>"; };
 		32EF67A31BE7349C00C47174 /* cinema_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_detail.json; sourceTree = "<group>"; };
 		32EF67A41BE7349C00C47174 /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
@@ -713,6 +716,8 @@
 		32BD07D11BE461D00013E3D6 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				32CA236D1BE98A200037891B /* RXTopCell.h */,
+				32CA236E1BE98A200037891B /* RXTopCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1276,6 +1281,7 @@
 				32BD090D1BE49B860013E3D6 /* RXBarItem.m in Sources */,
 				322F32111BE8509000B29C84 /* DataRequirst.m in Sources */,
 				32EF67F81BE7648B00C47174 /* UIImage+WebP.m in Sources */,
+				32CA236F1BE98A200037891B /* RXTopCell.m in Sources */,
 				32BD079E1BE45D1C0013E3D6 /* ViewController.m in Sources */,
 				32CA22F31BE87F080037891B /* NewsCell.m in Sources */,
 				32BD07DA1BE464E90013E3D6 /* MoreViewController.m in Sources */,

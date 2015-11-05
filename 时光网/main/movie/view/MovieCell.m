@@ -21,8 +21,9 @@
 - (void)setMovieInfo:(MoveInfo *)info
 {
     float stars = [info.rating[@"average"] integerValue] / 10.0;
-    StarView *star = [[StarView alloc]initWithFrame:self.ratingView.bounds withStars:stars];
-    [self.ratingView addSubview:star];
+//    StarView *star = [[StarView alloc]initWithFrame:self.ratingView.bounds withStars:stars];
+//    [self.ratingView addSubview:star];
+    self.ratingView.rating = stars;
     
     [self.posterView sd_setImageWithURL:info.images[@"medium"]];
     
@@ -32,7 +33,7 @@
 }
 
 - (void)awakeFromNib {
-    // Initialization code
+
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
