@@ -19,7 +19,9 @@
 @end
 
 @implementation MovieViewController
+
 #pragma  mark - 懒加载
+
 -(NSArray *)movieInfo
 {
     if (_movieInfo == nil) {

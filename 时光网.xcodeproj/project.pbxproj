@@ -175,6 +175,9 @@
 		32CA24021BEB35300037891B /* NImageModel .m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24001BEB35300037891B /* NImageModel .m */; };
 		32CA24051BEB3C4F0037891B /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24041BEB3C4F0037891B /* BaseModel.m */; };
 		32CA24081BEB4FF70037891B /* ScanImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24071BEB4FF70037891B /* ScanImageVC.m */; };
+		32CA243E1BEC38920037891B /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA243D1BEC38920037891B /* BasicNavigationController.m */; };
+		32CA24411BEC44440037891B /* ScanImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24401BEC44440037891B /* ScanImageCollectionView.m */; };
+		32CA24441BEC467D0037891B /* ScanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24431BEC467D0037891B /* ScanImageCell.m */; };
 		32EF67B21BE7349C00C47174 /* actor.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A21BE7349C00C47174 /* actor.json */; };
 		32EF67B31BE7349C00C47174 /* cinema_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A31BE7349C00C47174 /* cinema_detail.json */; };
 		32EF67B41BE7349C00C47174 /* cinema_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A41BE7349C00C47174 /* cinema_list.json */; };
@@ -418,8 +421,14 @@
 		32CA24011BEB35300037891B /* NImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NImageModel.h; sourceTree = "<group>"; };
 		32CA24031BEB3C4F0037891B /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		32CA24041BEB3C4F0037891B /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
-		32CA24061BEB4FF70037891B /* ScanImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanImageVC.h; sourceTree = "<group>"; };
-		32CA24071BEB4FF70037891B /* ScanImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanImageVC.m; sourceTree = "<group>"; };
+		32CA24061BEB4FF70037891B /* ScanImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScanImageVC.h; path = ../controll/ScanImageVC.h; sourceTree = "<group>"; };
+		32CA24071BEB4FF70037891B /* ScanImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScanImageVC.m; path = ../controll/ScanImageVC.m; sourceTree = "<group>"; };
+		32CA243C1BEC38920037891B /* BasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavigationController.h; sourceTree = "<group>"; };
+		32CA243D1BEC38920037891B /* BasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavigationController.m; sourceTree = "<group>"; };
+		32CA243F1BEC44440037891B /* ScanImageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanImageCollectionView.h; sourceTree = "<group>"; };
+		32CA24401BEC44440037891B /* ScanImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanImageCollectionView.m; sourceTree = "<group>"; };
+		32CA24421BEC467D0037891B /* ScanImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanImageCell.h; sourceTree = "<group>"; };
+		32CA24431BEC467D0037891B /* ScanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanImageCell.m; sourceTree = "<group>"; };
 		32EF67A21BE7349C00C47174 /* actor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = actor.json; sourceTree = "<group>"; };
 		32EF67A31BE7349C00C47174 /* cinema_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_detail.json; sourceTree = "<group>"; };
 		32EF67A41BE7349C00C47174 /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
@@ -526,6 +535,8 @@
 				32BD07E51BE467E70013E3D6 /* MainTabBarController.m */,
 				32BD07D21BE464BA0013E3D6 /* BasicViewController.h */,
 				32BD07D31BE464BA0013E3D6 /* BasicViewController.m */,
+				32CA243C1BEC38920037891B /* BasicNavigationController.h */,
+				32CA243D1BEC38920037891B /* BasicNavigationController.m */,
 				32BD090B1BE49B860013E3D6 /* RXBarItem.h */,
 				32BD090C1BE49B860013E3D6 /* RXBarItem.m */,
 				32BD09081BE491BD0013E3D6 /* common */,
@@ -686,6 +697,7 @@
 				32BD07CB1BE461D00013E3D6 /* controll */,
 				32BD07CC1BE461D00013E3D6 /* model */,
 				32CA22F01BE87EB80037891B /* view */,
+				32CA243B1BEC34A90037891B /* scanImage */,
 			);
 			path = news;
 			sourceTree = "<group>";
@@ -701,8 +713,6 @@
 				32CA23F31BEB26CB0037891B /* ImageVC.m */,
 				32CA23F51BEB26F10037891B /* VedioVC.h */,
 				32CA23F61BEB26F10037891B /* VedioVC.m */,
-				32CA24061BEB4FF70037891B /* ScanImageVC.h */,
-				32CA24071BEB4FF70037891B /* ScanImageVC.m */,
 			);
 			path = controll;
 			sourceTree = "<group>";
@@ -993,6 +1003,19 @@
 				32CA23FD1BEB2E880037891B /* NewsCVCell.xib */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		32CA243B1BEC34A90037891B /* scanImage */ = {
+			isa = PBXGroup;
+			children = (
+				32CA24061BEB4FF70037891B /* ScanImageVC.h */,
+				32CA24071BEB4FF70037891B /* ScanImageVC.m */,
+				32CA243F1BEC44440037891B /* ScanImageCollectionView.h */,
+				32CA24401BEC44440037891B /* ScanImageCollectionView.m */,
+				32CA24421BEC467D0037891B /* ScanImageCell.h */,
+				32CA24431BEC467D0037891B /* ScanImageCell.m */,
+			);
+			path = scanImage;
 			sourceTree = "<group>";
 		};
 		32EF67A11BE7349C00C47174 /* Json */ = {
@@ -1339,6 +1362,7 @@
 				32CA24021BEB35300037891B /* NImageModel .m in Sources */,
 				32EF67EF1BE7648B00C47174 /* SDWebImageCompat.m in Sources */,
 				32EF67ED1BE7648B00C47174 /* NSData+ImageContentType.m in Sources */,
+				32CA243E1BEC38920037891B /* BasicNavigationController.m in Sources */,
 				32BD07981BE45D1C0013E3D6 /* main.m in Sources */,
 				32EF67F31BE7648B00C47174 /* SDWebImageManager.m in Sources */,
 				32EF67F11BE7648B00C47174 /* SDWebImageDownloader.m in Sources */,
@@ -1350,8 +1374,10 @@
 				32CA24051BEB3C4F0037891B /* BaseModel.m in Sources */,
 				32EF67F61BE7648B00C47174 /* UIImage+GIF.m in Sources */,
 				32BD07E31BE465130013E3D6 /* TopViewController.m in Sources */,
+				32CA24411BEC44440037891B /* ScanImageCollectionView.m in Sources */,
 				32EF67F41BE7648B00C47174 /* SDWebImagePrefetcher.m in Sources */,
 				32CA23F41BEB26CB0037891B /* ImageVC.m in Sources */,
+				32CA24441BEC467D0037891B /* ScanImageCell.m in Sources */,
 				32EF67F51BE7648B00C47174 /* UIButton+WebCache.m in Sources */,
 				32CA23641BE8AB4A0037891B /* TopModel.m in Sources */,
 				32EF67F71BE7648B00C47174 /* UIImage+MultiFormat.m in Sources */,

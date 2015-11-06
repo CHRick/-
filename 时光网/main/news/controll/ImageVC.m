@@ -11,6 +11,7 @@
 #import "NewsCVCell.h"
 #import "UIImageView+WebCache.h"
 #import "ScanImageVC.h"
+#import "BasicNavigationController.h"
 
 static NSString *identifier = @"NewsCVCell";
 
@@ -85,9 +86,10 @@ static NSString *identifier = @"NewsCVCell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    ScanImageVC *scanVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ScanImageVC"];
-    scanVC.index = indexPath.row;
-    [self presentViewController:scanVC animated:YES completion:nil];
+    ScanImageVC *scanVC = [[ScanImageVC alloc]init];
+    scanVC.indexPath = indexPath;
+    BasicNavigationController *nav = [[BasicNavigationController alloc]initWithRootViewController:scanVC];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 

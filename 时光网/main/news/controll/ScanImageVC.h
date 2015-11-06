@@ -10,6 +10,6 @@
 
 @interface ScanImageVC : UIViewController
 
-@property (nonatomic,assign) NSInteger index;
+@property (nonatomic,strong) NSIndexPath *indexPath;
 
 @end
