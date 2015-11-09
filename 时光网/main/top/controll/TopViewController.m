@@ -11,6 +11,7 @@
 #import "UIImageView+WebCache.h"
 #import "StarView.h"
 #import "RXTopCell.h"
+#import "MDetailVC.h"
 
 static NSString *indentifier = @"item";
 
@@ -80,6 +81,12 @@ static NSString *indentifier = @"item";
     RXTopCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:indentifier forIndexPath:indexPath];
     [cell setTopInfo:info];
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    MDetailVC *detailVC = [self.storyboard instantiateViewControllerWithIdentifier:@"MDetailVC"];
+    [self.navigationController pushViewController:detailVC animated:YES];
 }
 
 

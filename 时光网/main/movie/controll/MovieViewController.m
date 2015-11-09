@@ -9,11 +9,12 @@
 #import "MovieViewController.h"
 #import "MoveInfo.h"
 #import "MovieCell.h"
+#import "PosterView.h"
 
 @interface MovieViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic,strong) UITableView *tableView;
-@property (nonatomic,strong) UIView *posterView;
+@property (nonatomic,strong) PosterView *posterView;
 @property (nonatomic,copy) NSArray *movieInfo;
 
 @end
@@ -46,11 +47,12 @@
     return _tableView;
 }
 
-- (UIView *)posterView
+- (PosterView *)posterView
 {
     if (_posterView == nil) {
-        _posterView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kScreenW, kScreenH)];
+        _posterView = [[PosterView alloc]initWithFrame:CGRectMake(0, 0, kScreenW, kScreenH)];
         _posterView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg_main"]];
+        _posterView.info = self.movieInfo;
         [self.view addSubview:_posterView];
     }
     return _posterView;
@@ -62,6 +64,7 @@
     [super viewDidLoad];
     [self createExchangeButton];
     [self createView];
+    self.posterView.info = self.movieInfo;
 }
 
 #pragma mark - createView

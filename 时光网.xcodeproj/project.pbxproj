@@ -163,7 +163,6 @@
 		32BD09051BE46B720013E3D6 /* tableView_line_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BD08791BE46B720013E3D6 /* tableView_line_home@2x.png */; };
 		32BD09061BE46B720013E3D6 /* up_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BD087A1BE46B720013E3D6 /* up_home.png */; };
 		32BD09071BE46B720013E3D6 /* up_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BD087B1BE46B720013E3D6 /* up_home@2x.png */; };
-		32BD090D1BE49B860013E3D6 /* RXBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD090C1BE49B860013E3D6 /* RXBarItem.m */; };
 		32CA22F31BE87F080037891B /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA22F21BE87F080037891B /* NewsCell.m */; };
 		32CA23641BE8AB4A0037891B /* TopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA23631BE8AB4A0037891B /* TopModel.m */; };
 		32CA236F1BE98A200037891B /* RXTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA236E1BE98A200037891B /* RXTopCell.m */; };
@@ -173,11 +172,25 @@
 		32CA23FE1BEB2E880037891B /* NewsCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA23FC1BEB2E880037891B /* NewsCVCell.m */; };
 		32CA23FF1BEB2E880037891B /* NewsCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CA23FD1BEB2E880037891B /* NewsCVCell.xib */; };
 		32CA24021BEB35300037891B /* NImageModel .m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24001BEB35300037891B /* NImageModel .m */; };
-		32CA24051BEB3C4F0037891B /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24041BEB3C4F0037891B /* BaseModel.m */; };
 		32CA24081BEB4FF70037891B /* ScanImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24071BEB4FF70037891B /* ScanImageVC.m */; };
 		32CA243E1BEC38920037891B /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA243D1BEC38920037891B /* BasicNavigationController.m */; };
 		32CA24411BEC44440037891B /* ScanImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24401BEC44440037891B /* ScanImageCollectionView.m */; };
 		32CA24441BEC467D0037891B /* ScanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24431BEC467D0037891B /* ScanImageCell.m */; };
+		32CA24471BECB85D0037891B /* MDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24461BECB85D0037891B /* MDetailVC.m */; };
+		32CA244D1BECC3090037891B /* CommentsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA244C1BECC3090037891B /* CommentsInfo.m */; };
+		32CA24501BECC9CD0037891B /* RXBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA244F1BECC9CD0037891B /* RXBarItem.m */; };
+		32CA24531BECCB5A0037891B /* MDetailHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24521BECCB5A0037891B /* MDetailHeadCell.m */; };
+		32CA24561BED7FD90037891B /* MDetailCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24551BED7FD90037891B /* MDetailCommentCell.m */; };
+		32CA24591BED879F0037891B /* PosterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24581BED879F0037891B /* PosterView.m */; };
+		32CA245C1BEDC9070037891B /* PosterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA245B1BEDC9070037891B /* PosterViewCell.m */; };
+		32CA245F1BEDC9260037891B /* PosterCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA245E1BEDC9260037891B /* PosterCollectionView.m */; };
+		32CA24621BF0315F0037891B /* ImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24611BF0315F0037891B /* ImageCollectionView.m */; };
+		32CA24651BF03CBB0037891B /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24641BF03CBB0037891B /* UIViewExt.m */; };
+		32CA24681BF043A40037891B /* IndexCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA24671BF043A40037891B /* IndexCollectionView.m */; };
+		32CA246B1BF043FC0037891B /* IndexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA246A1BF043FC0037891B /* IndexCell.m */; };
+		32CA246E1BF073560037891B /* MovieDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CA246D1BF073560037891B /* MovieDetailView.m */; };
+		32CA24701BF073970037891B /* MovieDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CA246F1BF073970037891B /* MovieDetailView.xib */; };
+		32CA24721BF081B80037891B /* news.html in Resources */ = {isa = PBXBuildFile; fileRef = 32CA24711BF081B80037891B /* news.html */; };
 		32EF67B21BE7349C00C47174 /* actor.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A21BE7349C00C47174 /* actor.json */; };
 		32EF67B31BE7349C00C47174 /* cinema_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A31BE7349C00C47174 /* cinema_detail.json */; };
 		32EF67B41BE7349C00C47174 /* cinema_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EF67A41BE7349C00C47174 /* cinema_list.json */; };
@@ -400,8 +413,6 @@
 		32BD087B1BE46B720013E3D6 /* up_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_home@2x.png"; sourceTree = "<group>"; };
 		32BD09091BE491D40013E3D6 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		32BD090A1BE492120013E3D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		32BD090B1BE49B860013E3D6 /* RXBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXBarItem.h; sourceTree = "<group>"; };
-		32BD090C1BE49B860013E3D6 /* RXBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXBarItem.m; sourceTree = "<group>"; };
 		32CA22F11BE87F080037891B /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
 		32CA22F21BE87F080037891B /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
 		32CA23621BE8AB4A0037891B /* TopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopModel.h; sourceTree = "<group>"; };
@@ -419,8 +430,6 @@
 		32CA23FD1BEB2E880037891B /* NewsCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCVCell.xib; sourceTree = "<group>"; };
 		32CA24001BEB35300037891B /* NImageModel .m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NImageModel .m"; sourceTree = "<group>"; };
 		32CA24011BEB35300037891B /* NImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NImageModel.h; sourceTree = "<group>"; };
-		32CA24031BEB3C4F0037891B /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		32CA24041BEB3C4F0037891B /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		32CA24061BEB4FF70037891B /* ScanImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScanImageVC.h; path = ../controll/ScanImageVC.h; sourceTree = "<group>"; };
 		32CA24071BEB4FF70037891B /* ScanImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScanImageVC.m; path = ../controll/ScanImageVC.m; sourceTree = "<group>"; };
 		32CA243C1BEC38920037891B /* BasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavigationController.h; sourceTree = "<group>"; };
@@ -429,6 +438,34 @@
 		32CA24401BEC44440037891B /* ScanImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanImageCollectionView.m; sourceTree = "<group>"; };
 		32CA24421BEC467D0037891B /* ScanImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanImageCell.h; sourceTree = "<group>"; };
 		32CA24431BEC467D0037891B /* ScanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanImageCell.m; sourceTree = "<group>"; };
+		32CA24451BECB85D0037891B /* MDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDetailVC.h; sourceTree = "<group>"; };
+		32CA24461BECB85D0037891B /* MDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDetailVC.m; sourceTree = "<group>"; };
+		32CA244B1BECC3090037891B /* CommentsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsInfo.h; sourceTree = "<group>"; };
+		32CA244C1BECC3090037891B /* CommentsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsInfo.m; sourceTree = "<group>"; };
+		32CA244E1BECC9CD0037891B /* RXBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXBarItem.h; sourceTree = "<group>"; };
+		32CA244F1BECC9CD0037891B /* RXBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXBarItem.m; sourceTree = "<group>"; };
+		32CA24511BECCB5A0037891B /* MDetailHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDetailHeadCell.h; sourceTree = "<group>"; };
+		32CA24521BECCB5A0037891B /* MDetailHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDetailHeadCell.m; sourceTree = "<group>"; };
+		32CA24541BED7FD90037891B /* MDetailCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDetailCommentCell.h; sourceTree = "<group>"; };
+		32CA24551BED7FD90037891B /* MDetailCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDetailCommentCell.m; sourceTree = "<group>"; };
+		32CA24571BED879F0037891B /* PosterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosterView.h; sourceTree = "<group>"; };
+		32CA24581BED879F0037891B /* PosterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosterView.m; sourceTree = "<group>"; };
+		32CA245A1BEDC9070037891B /* PosterViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosterViewCell.h; sourceTree = "<group>"; };
+		32CA245B1BEDC9070037891B /* PosterViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosterViewCell.m; sourceTree = "<group>"; };
+		32CA245D1BEDC9260037891B /* PosterCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosterCollectionView.h; sourceTree = "<group>"; };
+		32CA245E1BEDC9260037891B /* PosterCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosterCollectionView.m; sourceTree = "<group>"; };
+		32CA24601BF0315E0037891B /* ImageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionView.h; sourceTree = "<group>"; };
+		32CA24611BF0315F0037891B /* ImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionView.m; sourceTree = "<group>"; };
+		32CA24631BF03CBB0037891B /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewExt.h; path = Json/UIViewExt.h; sourceTree = "<group>"; };
+		32CA24641BF03CBB0037891B /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewExt.m; path = Json/UIViewExt.m; sourceTree = "<group>"; };
+		32CA24661BF043A40037891B /* IndexCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexCollectionView.h; sourceTree = "<group>"; };
+		32CA24671BF043A40037891B /* IndexCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexCollectionView.m; sourceTree = "<group>"; };
+		32CA24691BF043FC0037891B /* IndexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexCell.h; sourceTree = "<group>"; };
+		32CA246A1BF043FC0037891B /* IndexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexCell.m; sourceTree = "<group>"; };
+		32CA246C1BF073560037891B /* MovieDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailView.h; sourceTree = "<group>"; };
+		32CA246D1BF073560037891B /* MovieDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailView.m; sourceTree = "<group>"; };
+		32CA246F1BF073970037891B /* MovieDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieDetailView.xib; sourceTree = "<group>"; };
+		32CA24711BF081B80037891B /* news.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = news.html; sourceTree = "<group>"; };
 		32EF67A21BE7349C00C47174 /* actor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = actor.json; sourceTree = "<group>"; };
 		32EF67A31BE7349C00C47174 /* cinema_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_detail.json; sourceTree = "<group>"; };
 		32EF67A41BE7349C00C47174 /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
@@ -537,8 +574,6 @@
 				32BD07D31BE464BA0013E3D6 /* BasicViewController.m */,
 				32CA243C1BEC38920037891B /* BasicNavigationController.h */,
 				32CA243D1BEC38920037891B /* BasicNavigationController.m */,
-				32BD090B1BE49B860013E3D6 /* RXBarItem.h */,
-				32BD090C1BE49B860013E3D6 /* RXBarItem.m */,
 				32BD09081BE491BD0013E3D6 /* common */,
 				32BD07BD1BE461D00013E3D6 /* main */,
 				32BD07A21BE45D1C0013E3D6 /* Images.xcassets */,
@@ -687,6 +722,21 @@
 				32EF67C51BE7514600C47174 /* MovieCell.h */,
 				32EF67C61BE7514600C47174 /* MovieCell.m */,
 				32EF67C71BE7514600C47174 /* MovieCell.xib */,
+				32CA24571BED879F0037891B /* PosterView.h */,
+				32CA24581BED879F0037891B /* PosterView.m */,
+				32CA245D1BEDC9260037891B /* PosterCollectionView.h */,
+				32CA245E1BEDC9260037891B /* PosterCollectionView.m */,
+				32CA245A1BEDC9070037891B /* PosterViewCell.h */,
+				32CA245B1BEDC9070037891B /* PosterViewCell.m */,
+				32CA24661BF043A40037891B /* IndexCollectionView.h */,
+				32CA24671BF043A40037891B /* IndexCollectionView.m */,
+				32CA24691BF043FC0037891B /* IndexCell.h */,
+				32CA246A1BF043FC0037891B /* IndexCell.m */,
+				32CA24601BF0315E0037891B /* ImageCollectionView.h */,
+				32CA24611BF0315F0037891B /* ImageCollectionView.m */,
+				32CA246C1BF073560037891B /* MovieDetailView.h */,
+				32CA246D1BF073560037891B /* MovieDetailView.m */,
+				32CA246F1BF073970037891B /* MovieDetailView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -743,6 +793,8 @@
 			children = (
 				32BD07E11BE465130013E3D6 /* TopViewController.h */,
 				32BD07E21BE465130013E3D6 /* TopViewController.m */,
+				32CA24451BECB85D0037891B /* MDetailVC.h */,
+				32CA24461BECB85D0037891B /* MDetailVC.m */,
 			);
 			path = controll;
 			sourceTree = "<group>";
@@ -752,6 +804,8 @@
 			children = (
 				32CA23621BE8AB4A0037891B /* TopModel.h */,
 				32CA23631BE8AB4A0037891B /* TopModel.m */,
+				32CA244B1BECC3090037891B /* CommentsInfo.h */,
+				32CA244C1BECC3090037891B /* CommentsInfo.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -761,6 +815,10 @@
 			children = (
 				32CA236D1BE98A200037891B /* RXTopCell.h */,
 				32CA236E1BE98A200037891B /* RXTopCell.m */,
+				32CA24511BECCB5A0037891B /* MDetailHeadCell.h */,
+				32CA24521BECCB5A0037891B /* MDetailHeadCell.m */,
+				32CA24541BED7FD90037891B /* MDetailCommentCell.h */,
+				32CA24551BED7FD90037891B /* MDetailCommentCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -980,6 +1038,8 @@
 			isa = PBXGroup;
 			children = (
 				32EF67CA1BE7648B00C47174 /* SDWebImage */,
+				32CA24631BF03CBB0037891B /* UIViewExt.h */,
+				32CA24641BF03CBB0037891B /* UIViewExt.m */,
 				32EF67A11BE7349C00C47174 /* Json */,
 				32BD09091BE491D40013E3D6 /* Common.h */,
 				32BD090A1BE492120013E3D6 /* PrefixHeader.pch */,
@@ -987,8 +1047,9 @@
 				32EF67FD1BE7763B00C47174 /* StarView.m */,
 				322F320F1BE8509000B29C84 /* DataRequirst.h */,
 				322F32101BE8509000B29C84 /* DataRequirst.m */,
-				32CA24031BEB3C4F0037891B /* BaseModel.h */,
-				32CA24041BEB3C4F0037891B /* BaseModel.m */,
+				32CA244E1BECC9CD0037891B /* RXBarItem.h */,
+				32CA244F1BECC9CD0037891B /* RXBarItem.m */,
+				32CA24711BF081B80037891B /* news.html */,
 			);
 			name = common;
 			sourceTree = "<group>";
@@ -1179,6 +1240,7 @@
 				32BD08AF1BE46B720013E3D6 /* 17@2x.png in Resources */,
 				32BD08981BE46B720013E3D6 /* Default.png in Resources */,
 				32BD08A21BE46B720013E3D6 /* selectTabbar_bg_all1.png in Resources */,
+				32CA24721BF081B80037891B /* news.html in Resources */,
 				32BD08A81BE46B720013E3D6 /* 10@2x.png in Resources */,
 				32BD08A71BE46B720013E3D6 /* yellow@2x.png in Resources */,
 				32BD08D01BE46B720013E3D6 /* more_fav_on.png in Resources */,
@@ -1233,6 +1295,7 @@
 				32BD08AB1BE46B720013E3D6 /* 13@2x.png in Resources */,
 				32BD08901BE46B720013E3D6 /* zoomin.png in Resources */,
 				32BD08E21BE46B720013E3D6 /* btnbg_blue.png in Resources */,
+				32CA24701BF073970037891B /* MovieDetailView.xib in Resources */,
 				32BD089B1BE46B720013E3D6 /* Icon.png in Resources */,
 				32BD088C1BE46B720013E3D6 /* volume_mute.png in Resources */,
 				32BD08CA1BE46B720013E3D6 /* scspxw@2x.png in Resources */,
@@ -1340,9 +1403,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EF68011BE789F900C47174 /* MoveInfo.m in Sources */,
-				32BD090D1BE49B860013E3D6 /* RXBarItem.m in Sources */,
 				322F32111BE8509000B29C84 /* DataRequirst.m in Sources */,
 				32EF67F81BE7648B00C47174 /* UIImage+WebP.m in Sources */,
+				32CA244D1BECC3090037891B /* CommentsInfo.m in Sources */,
 				32CA236F1BE98A200037891B /* RXTopCell.m in Sources */,
 				32BD079E1BE45D1C0013E3D6 /* ViewController.m in Sources */,
 				32CA22F31BE87F080037891B /* NewsCell.m in Sources */,
@@ -1350,8 +1413,11 @@
 				32BD07D71BE464DA0013E3D6 /* CinemaViewController.m in Sources */,
 				32CA23F11BEB26BA0037891B /* DetailVC.m in Sources */,
 				32BD07E01BE465050013E3D6 /* NewsViewController.m in Sources */,
+				32CA24471BECB85D0037891B /* MDetailVC.m in Sources */,
+				32CA24501BECC9CD0037891B /* RXBarItem.m in Sources */,
 				32BD07DD1BE464F60013E3D6 /* MovieViewController.m in Sources */,
 				32EF67F21BE7648B00C47174 /* SDWebImageDownloaderOperation.m in Sources */,
+				32CA24651BF03CBB0037891B /* UIViewExt.m in Sources */,
 				322F320E1BE83C4900B29C84 /* NewsModel.m in Sources */,
 				32EF67FE1BE7763B00C47174 /* StarView.m in Sources */,
 				32BD07D41BE464BA0013E3D6 /* BasicViewController.m in Sources */,
@@ -1365,22 +1431,30 @@
 				32CA243E1BEC38920037891B /* BasicNavigationController.m in Sources */,
 				32BD07981BE45D1C0013E3D6 /* main.m in Sources */,
 				32EF67F31BE7648B00C47174 /* SDWebImageManager.m in Sources */,
+				32CA24531BECCB5A0037891B /* MDetailHeadCell.m in Sources */,
+				32CA24591BED879F0037891B /* PosterView.m in Sources */,
 				32EF67F11BE7648B00C47174 /* SDWebImageDownloader.m in Sources */,
 				32CA23F71BEB26F10037891B /* VedioVC.m in Sources */,
+				32CA24681BF043A40037891B /* IndexCollectionView.m in Sources */,
+				32CA245F1BEDC9260037891B /* PosterCollectionView.m in Sources */,
 				32EF67FA1BE7648B00C47174 /* UIImageView+WebCache.m in Sources */,
 				32EF67F91BE7648B00C47174 /* UIImageView+HighlightedWebCache.m in Sources */,
 				32EF67EC1BE7648B00C47174 /* MKAnnotationView+WebCache.m in Sources */,
+				32CA24561BED7FD90037891B /* MDetailCommentCell.m in Sources */,
 				32CA23FE1BEB2E880037891B /* NewsCVCell.m in Sources */,
-				32CA24051BEB3C4F0037891B /* BaseModel.m in Sources */,
 				32EF67F61BE7648B00C47174 /* UIImage+GIF.m in Sources */,
 				32BD07E31BE465130013E3D6 /* TopViewController.m in Sources */,
+				32CA246E1BF073560037891B /* MovieDetailView.m in Sources */,
 				32CA24411BEC44440037891B /* ScanImageCollectionView.m in Sources */,
 				32EF67F41BE7648B00C47174 /* SDWebImagePrefetcher.m in Sources */,
+				32CA24621BF0315F0037891B /* ImageCollectionView.m in Sources */,
 				32CA23F41BEB26CB0037891B /* ImageVC.m in Sources */,
 				32CA24441BEC467D0037891B /* ScanImageCell.m in Sources */,
 				32EF67F51BE7648B00C47174 /* UIButton+WebCache.m in Sources */,
 				32CA23641BE8AB4A0037891B /* TopModel.m in Sources */,
+				32CA245C1BEDC9070037891B /* PosterViewCell.m in Sources */,
 				32EF67F71BE7648B00C47174 /* UIImage+MultiFormat.m in Sources */,
+				32CA246B1BF043FC0037891B /* IndexCell.m in Sources */,
 				32EF67F01BE7648B00C47174 /* SDWebImageDecoder.m in Sources */,
 				32EF67FB1BE7648B00C47174 /* UIView+WebCacheOperation.m in Sources */,
 				32EF67C81BE7514600C47174 /* MovieCell.m in Sources */,
