@@ -12,8 +12,7 @@
 @interface MDetailCommentCell : UITableViewCell
 
 @property (nonatomic,strong) CommentsInfo *info;
-//@property (nonatomic,assign) CGFloat rowHeight;
+@property (weak, nonatomic) IBOutlet UILabel *commentLabel;
 
-- (void)rowHeight;
 
 @end

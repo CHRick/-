@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StarView.h"
+#import "MoveInfo.h"
 
 @interface MovieDetailView : UIView
+@property (weak, nonatomic) IBOutlet UILabel *CNTitle;
+@property (weak, nonatomic) IBOutlet UILabel *ENTitle;
+@property (weak, nonatomic) IBOutlet UIImageView *poster;
+@property (weak, nonatomic) IBOutlet StarView *star;
+@property (weak, nonatomic) IBOutlet UILabel *rating;
+
+@property (nonatomic,strong) MoveInfo *info;
 
 @end

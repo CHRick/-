@@ -8,12 +8,6 @@
 
 #import "MDetailHeadCell.h"
 
-@interface MDetailHeadCell()
-
-
-
-
-@end
 
 @implementation MDetailHeadCell
 
@@ -27,6 +21,7 @@
     // Configure the view for the selected state
 }
 
+// 设置第一个单元格的内容
 - (void)setInfo:(NSDictionary *)info
 {
     if (_info != info) {

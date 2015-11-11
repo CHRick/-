@@ -227,6 +227,11 @@
 		32EF67FB1BE7648B00C47174 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67EB1BE7648B00C47174 /* UIView+WebCacheOperation.m */; };
 		32EF67FE1BE7763B00C47174 /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF67FD1BE7763B00C47174 /* StarView.m */; };
 		32EF68011BE789F900C47174 /* MoveInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF68001BE789F900C47174 /* MoveInfo.m */; };
+		5D3854311BF1EAB500435748 /* CinemaListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D38542F1BF1EAB500435748 /* CinemaListCell.m */; };
+		5D3854321BF1EAB500435748 /* CinemaListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3854301BF1EAB500435748 /* CinemaListCell.xib */; };
+		5D3854351BF2E57900435748 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3854341BF2E57900435748 /* BaseModel.m */; };
+		5DEFFC8C1BF1CB0700DF6871 /* CinemaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFFC8B1BF1CB0700DF6871 /* CinemaModel.m */; };
+		5DEFFC8F1BF1D97C00DF6871 /* DistrictInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFFC8E1BF1D97C00DF6871 /* DistrictInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -522,6 +527,15 @@
 		32EF67FD1BE7763B00C47174 /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StarView.m; path = main/movie/view/StarView.m; sourceTree = "<group>"; };
 		32EF67FF1BE789F900C47174 /* MoveInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveInfo.h; sourceTree = "<group>"; };
 		32EF68001BE789F900C47174 /* MoveInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveInfo.m; sourceTree = "<group>"; };
+		5D38542E1BF1EAB500435748 /* CinemaListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaListCell.h; sourceTree = "<group>"; };
+		5D38542F1BF1EAB500435748 /* CinemaListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaListCell.m; sourceTree = "<group>"; };
+		5D3854301BF1EAB500435748 /* CinemaListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CinemaListCell.xib; sourceTree = "<group>"; };
+		5D3854331BF2E57900435748 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		5D3854341BF2E57900435748 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		5DEFFC8A1BF1CB0700DF6871 /* CinemaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaModel.h; sourceTree = "<group>"; };
+		5DEFFC8B1BF1CB0700DF6871 /* CinemaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaModel.m; sourceTree = "<group>"; };
+		5DEFFC8D1BF1D97C00DF6871 /* DistrictInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistrictInfo.h; sourceTree = "<group>"; };
+		5DEFFC8E1BF1D97C00DF6871 /* DistrictInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -574,6 +588,8 @@
 				32BD07D31BE464BA0013E3D6 /* BasicViewController.m */,
 				32CA243C1BEC38920037891B /* BasicNavigationController.h */,
 				32CA243D1BEC38920037891B /* BasicNavigationController.m */,
+				5D3854331BF2E57900435748 /* BaseModel.h */,
+				5D3854341BF2E57900435748 /* BaseModel.m */,
 				32BD09081BE491BD0013E3D6 /* common */,
 				32BD07BD1BE461D00013E3D6 /* main */,
 				32BD07A21BE45D1C0013E3D6 /* Images.xcassets */,
@@ -644,6 +660,10 @@
 		32BD07C01BE461D00013E3D6 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				5DEFFC8A1BF1CB0700DF6871 /* CinemaModel.h */,
+				5DEFFC8B1BF1CB0700DF6871 /* CinemaModel.m */,
+				5DEFFC8D1BF1D97C00DF6871 /* DistrictInfo.h */,
+				5DEFFC8E1BF1D97C00DF6871 /* DistrictInfo.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -651,6 +671,9 @@
 		32BD07C11BE461D00013E3D6 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				5D38542E1BF1EAB500435748 /* CinemaListCell.h */,
+				5D38542F1BF1EAB500435748 /* CinemaListCell.m */,
+				5D3854301BF1EAB500435748 /* CinemaListCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1186,7 +1209,7 @@
 		32BD078A1BE45D1C0013E3D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Rick;
 				TargetAttributes = {
 					32BD07911BE45D1C0013E3D6 = {
@@ -1258,6 +1281,7 @@
 				32BD08A51BE46B720013E3D6 /* tab_bg_all.png in Resources */,
 				32BD08AE1BE46B720013E3D6 /* 16@2x.png in Resources */,
 				32BD08841BE46B720013E3D6 /* point.png in Resources */,
+				5D3854321BF1EAB500435748 /* CinemaListCell.xib in Resources */,
 				32BD08CC1BE46B720013E3D6 /* sctpxw@2x.png in Resources */,
 				32BD08861BE46B720013E3D6 /* progress_blue_bar.png in Resources */,
 				32BD09021BE46B720013E3D6 /* poster_home@2x.png in Resources */,
@@ -1412,6 +1436,7 @@
 				32BD07DA1BE464E90013E3D6 /* MoreViewController.m in Sources */,
 				32BD07D71BE464DA0013E3D6 /* CinemaViewController.m in Sources */,
 				32CA23F11BEB26BA0037891B /* DetailVC.m in Sources */,
+				5D3854311BF1EAB500435748 /* CinemaListCell.m in Sources */,
 				32BD07E01BE465050013E3D6 /* NewsViewController.m in Sources */,
 				32CA24471BECB85D0037891B /* MDetailVC.m in Sources */,
 				32CA24501BECC9CD0037891B /* RXBarItem.m in Sources */,
@@ -1419,6 +1444,7 @@
 				32EF67F21BE7648B00C47174 /* SDWebImageDownloaderOperation.m in Sources */,
 				32CA24651BF03CBB0037891B /* UIViewExt.m in Sources */,
 				322F320E1BE83C4900B29C84 /* NewsModel.m in Sources */,
+				5D3854351BF2E57900435748 /* BaseModel.m in Sources */,
 				32EF67FE1BE7763B00C47174 /* StarView.m in Sources */,
 				32BD07D41BE464BA0013E3D6 /* BasicViewController.m in Sources */,
 				32EF67EE1BE7648B00C47174 /* SDImageCache.m in Sources */,
@@ -1427,6 +1453,7 @@
 				32CA24081BEB4FF70037891B /* ScanImageVC.m in Sources */,
 				32CA24021BEB35300037891B /* NImageModel .m in Sources */,
 				32EF67EF1BE7648B00C47174 /* SDWebImageCompat.m in Sources */,
+				5DEFFC8F1BF1D97C00DF6871 /* DistrictInfo.m in Sources */,
 				32EF67ED1BE7648B00C47174 /* NSData+ImageContentType.m in Sources */,
 				32CA243E1BEC38920037891B /* BasicNavigationController.m in Sources */,
 				32BD07981BE45D1C0013E3D6 /* main.m in Sources */,
@@ -1445,6 +1472,7 @@
 				32EF67F61BE7648B00C47174 /* UIImage+GIF.m in Sources */,
 				32BD07E31BE465130013E3D6 /* TopViewController.m in Sources */,
 				32CA246E1BF073560037891B /* MovieDetailView.m in Sources */,
+				5DEFFC8C1BF1CB0700DF6871 /* CinemaModel.m in Sources */,
 				32CA24411BEC44440037891B /* ScanImageCollectionView.m in Sources */,
 				32EF67F41BE7648B00C47174 /* SDWebImagePrefetcher.m in Sources */,
 				32CA24621BF0315F0037891B /* ImageCollectionView.m in Sources */,
@@ -1519,6 +1547,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1583,6 +1612,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/时光网/PrefixHeader.pch";
 				INFOPLIST_FILE = "时光网/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RickChen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1595,6 +1625,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/时光网/PrefixHeader.pch";
 				INFOPLIST_FILE = "时光网/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RickChen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1613,6 +1644,7 @@
 				);
 				INFOPLIST_FILE = "时光网Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RickChen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/时光网.app/时光网";
 			};
@@ -1628,6 +1660,7 @@
 				);
 				INFOPLIST_FILE = "时光网Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RickChen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/时光网.app/时光网";
 			};

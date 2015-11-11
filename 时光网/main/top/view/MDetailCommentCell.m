@@ -11,9 +11,10 @@
 
 @interface MDetailCommentCell()
 
-@property (weak, nonatomic) IBOutlet UILabel *commentLabel;
+
 @property (weak, nonatomic) IBOutlet UILabel *nikeNameLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *iconImage;
+@property (weak, nonatomic) IBOutlet UILabel *ratingLabel;
 
 @end
 
@@ -30,6 +31,7 @@
     // Configure the view for the selected state
 }
 
+// 设置评论单元格内容
 - (void)setInfo:(CommentsInfo *)info
 {
     if (_info != info) {
@@ -38,15 +40,7 @@
         self.commentLabel.text = _info.content;
         self.commentLabel.numberOfLines = 0;
         self.nikeNameLabel.text = _info.nickname;
-    }
-}
-
-- (void)rowHeight
-{
-    if (self.selected) {
-        NSString *text = self.commentLabel.text;
-        CGRect frame = [text boundingRectWithSize:CGSizeMake(247, 1000) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:17]}context:nil];
-//        self.rowHeight = frame.size.height + 60;
+        self.ratingLabel.text = [NSString stringWithFormat:@"%.1f",[_info.rating floatValue]];
     }
 }
 

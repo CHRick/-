@@ -8,22 +8,24 @@
 
 #import "PosterViewCell.h"
 #import "MoveInfo.h"
+#import "MovieDetailView.h"
 
 @interface PosterViewCell()
 
 @property (nonatomic,strong) UIImageView *imageView;
-@property (nonatomic,strong) UIView *detail;
+@property (nonatomic,strong) MovieDetailView *detail;
 
 @end
 
 @implementation PosterViewCell
 
-- (UIView *)detail
+- (MovieDetailView *)detail
 {
     if (_detail == nil) {
-        _detail = [[UIView alloc]initWithFrame:self.imageView.bounds];
+        _detail = [[[NSBundle mainBundle]loadNibNamed:@"MovieDetailView" owner:nil options:nil]lastObject];
         _detail.hidden = YES;
-        _detail.backgroundColor = [UIColor redColor];
+        _detail.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.3];
+        _detail.transform = CGAffineTransformMakeScale(0.95, 0.95);
         [self.contentView addSubview:_detail];
     }
     return _detail;
@@ -45,6 +47,7 @@
     if (_info != info) {
         _info = info;
         [self.imageView sd_setImageWithURL:[NSURL URLWithString:_info.images[@"large"]]];
+        self.detail.info = _info;
     }
 }
 

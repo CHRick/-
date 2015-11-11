@@ -58,7 +58,7 @@
         }else if([object isKindOfClass:[IndexCollectionView class]] && self.collectionView.currentPage != [change[@"new"] integerValue]){
             self.collectionView.currentPage = [change[@"new"] integerValue];
         }
-     self.title.text = [self.info[self.collectionView.currentPage] title];   
+     self.title.text = [self.info[self.collectionView.currentPage] title];
     }
 }
 

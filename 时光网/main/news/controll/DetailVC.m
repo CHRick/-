@@ -8,30 +8,55 @@
 
 #import "DetailVC.h"
 
-@interface DetailVC ()
+@interface DetailVC ()<UIWebViewDelegate>
+
+@property (nonatomic,strong) UIWebView *webView;
+@property (nonatomic,strong) UIActivityIndicatorView *indicator;
 
 @end
 
 @implementation DetailVC
 
+- (UIWebView *)webView
+{
+    if (_webView == nil) {
+        _webView = [[UIWebView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+        _webView.scalesPageToFit = YES;
+        _webView.delegate = self;
+        [self.view addSubview:_webView];
+    }
+    return _webView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self loadData];
+    self.indicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:self.indicator];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)loadData
+{
+    NSDictionary *dic = [DataRequirst jsonData:@"news_detail.json"];
+    NSString *content = dic[@"content"];
+    NSString *title = dic[@"title"];
+    NSString *subTitle = [NSString stringWithFormat:@"%@ %@",dic[@"source"],dic[@"time"]];
+    NSString *author = [NSString stringWithFormat:@"编辑（%@）",dic[@"author"] ];
+    
+    NSString *html = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"news.html" ofType:nil] encoding:NSUTF8StringEncoding error:nil];
+    
+    
+    [self.webView loadHTMLString:[NSString stringWithFormat:html,title,subTitle,content,author] baseURL:nil];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+    [self.indicator startAnimating];
 }
-*/
+
+-(void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    [self.indicator stopAnimating];
+}
 
 @end

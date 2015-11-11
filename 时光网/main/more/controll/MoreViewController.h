@@ -8,6 +8,6 @@
 
 #import "BasicViewController.h"
 
-@interface MoreViewController : BasicViewController
+@interface MoreViewController : UITableViewController
 
 @end

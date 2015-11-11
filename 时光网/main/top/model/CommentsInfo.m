@@ -23,6 +23,7 @@
     return [[self alloc]initWithDictionary:dic];
 }
 
+// 存储了json文件中的所有数据，以commentsInfo类存储 
 + (NSArray *)comments
 {
     NSMutableArray *arrayM = [NSMutableArray array];

@@ -44,4 +44,9 @@ static NSString *identifier = @"PosterViewCell";
     self.currentPage = indexPath.row;
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"%s",__func__);
+}
+
 @end

@@ -10,7 +10,5 @@
 
 @interface PosterCollectionView : ImageCollectionView<UICollectionViewDelegate,UICollectionViewDataSource>
 
-@property (nonatomic,assign) CGFloat pageWidth;
-
 
 @end
